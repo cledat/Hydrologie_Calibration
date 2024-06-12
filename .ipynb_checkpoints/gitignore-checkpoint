@@ -1,0 +1,32 @@
+# Fichiers de configuration de l'IDE
+.idea/
+*.sublime-workspace
+
+# Dossiers de build et de compilation
+bin/
+obj/
+out/
+build/
+dist/
+
+# Fichiers de package
+*.jar
+*.war
+*.ear
+
+# Fichiers de logs et bases de données
+*.log
+*.sql
+*.sqlite
+*.nc
+*.dbf
+*.json
+*.shp
+# Autres fichiers et dossiers à ignorer
+.DS_Store
+Thumbs.db
+*.tmp
+node_modules/
+data/
+output-files/
+bckup/

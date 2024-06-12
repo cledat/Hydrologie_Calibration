@@ -1,0 +1,72 @@
+total 6176
+-rwxr-xr-x   1 g300128 ch0636      90 May 29 09:16 1a. run_single_calibration.bat
+-rwxr-xr-x   1 g300128 ch0636      83 May  8 14:12 2. run_plot_calibration.bat
+-rwxr-xr-x   1 g300128 ch0636      65 May  2 12:18 3. run_violin_plots.bat
+-rw-r--r--   1 g300128 ch0636 6187527 Jun  8 15:30 error-10566620.txt
+-rw-r--r--   1 g300128 ch0636   12384 Jun 10 09:28 error-10626130.txt
+-rw-r--r--   1 g300128 ch0636       0 Jun 10 09:34 error-10626194.txt
+drwxr-sr-x   3 g300128 ch0636    4096 May  2 12:18 figures
+drwxr-sr-x   3 g300128 ch0636    4096 May 14 16:59 observed_data
+-rwxr-xr-x   1 g300128 ch0636     164 May  2 12:18 ParamRanges.csv
+-rwxr-xr-x   1 g300128 ch0636    3292 May  2 12:18 readme.txt
+-rw-r--r--   1 g300128 ch0636    3113 Jun  8 15:31 result-10566620.txt
+-rw-r--r--   1 g300128 ch0636    3870 Jun 10 09:28 result-10626130.txt
+-rw-r--r--   1 g300128 ch0636       0 Jun 10 09:34 result-10626194.txt
+-rwxr--r--   1 g300128 ch0636      73 May  7 09:40 run_calibration.sh
+-rwxr--r--   1 g300128 ch0636     959 Jun 10 09:33 run_calibration_slurm.sh
+drwxr-sr-x 324 g300128 ch0636   28672 May 23 12:22 runs_calibration
+drwxr-sr-x   3 g300128 ch0636   12288 Jun 10 09:32 runs_calibration_net_cdf
+-rwxr--r--   1 g300128 ch0636      92 Jun  6 10:40 run_single_calibration.sh
+drwxr-sr-x   4 g300128 ch0636    4096 May 29 11:27 scripts
+-rw-r--r--   1 g300128 ch0636    1411 May 30 09:02 settings_calibration-netcdf.txt
+-rwxr-xr-x   1 g300128 ch0636    1331 May 22 09:56 settings_calibration.txt
+drwxr-sr-x   3 g300128 ch0636    4096 May 29 16:53 templates_CWatM
+---------------------------
+Running preprocess-regional
+---------------------------
+----------------Bonjour Augustin ----------------- 
+ 
+-----------Tu serais pas beau gosse aujourd'hui ? ;) ------------------------ 
+ 
+
+Mise en place des caracteristiques de profil. 
+ Poour activer l environnement et les raccourcis, utiliser : source go_work.sh  
+ 
+------------------------------------------------------------------------------------------
+Les raccourcis sont les suivant : 
+ cdg : aller dans mon dossier de work 
+cdproj : rejoindre le dossier UWARES
+------------------------------------------------------------------------------------------
+Amuses toi bien ;)
+
+********************************************************************************
+*                                                                              *
+*  This is the automated job summary provided by DKRZ.                         *
+*  If you encounter problems, need assistance or have any suggestion, please   *
+*  write an email to                                                           *
+*                                                                              *
+*  --  support@dkrz.de --                                                      *
+*                                                                              *
+*                       We hope you enjoyed the DKRZ supercomputer LEVANTE ... *
+*
+* JobID            : 10626194
+* JobName          : runing_prep                                       
+* Account          : ch0636
+* User             : g300128 (201946), ch0636 (1303)                   
+* Partition        : shared
+* QOS              : normal
+* Nodelist         : l40010 (1)                                                
+* Submit date      : 2024-06-10T09:33:54
+* Start time       : 2024-06-10T09:34:07
+* End time         : 2024-06-10T09:34:13
+* Elapsed time     : 00:00:06 (Timelimit=2-00:00:00)                   
+* Command          : /work/ch0636/g300128/Calibration/run_calibration_slurm.sh
+* WorkDir          : /work/ch0636/g300128/Calibration
+*
+* StepID | JobName      NodeHours    MaxRSS [Byte] (@task)
+* ------------------------------------------------------------------------------
+* 0      | run_single_c   0.00028                8504K (0)
+* batch  | batch           0.0017
+* extern | extern          0.0017                2204K (0)
+* ------------------------------------------------------------------------------
+
