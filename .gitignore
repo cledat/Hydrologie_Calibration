@@ -30,5 +30,5 @@ node_modules/
 data/
 output-files/
 bckup/
-runs_calibration/*
-runs_calibration_net_cdf/*
+runs_calibration/
+runs_calibration_net_cdf/
