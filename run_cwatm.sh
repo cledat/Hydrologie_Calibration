@@ -1,19 +1,4 @@
 #!/bin/bash
-#SBATCH --job-name=runing_prep     
-#SBATCH --mail-user=augustin.cledat@hereon.de
-#SBATCH --mail-type=BEGIN,END,FAILED
-#SBATCH --partition=shared
-#SBATCH --mem=100G 
-#SBATCH --account=ch0636
-#SBATCH --ntasks-per-node=128
-#SBATCH --cpus-per-task=2
-#SBATCH --time=7-00
-#SBATCH --output=result-%j.txt          # output file
-#SBATCH --error=error-%j.txt          # error file
-
-# Begin of section with executable commands
-set -e
-ls -l
 
 # Initializing ---------------------------------------------------------------------------
 echo "---------------------------"
@@ -31,7 +16,6 @@ cwatm_dir="/work/ch0636/projects/uwares/CWatM"
 ccwatm_dir="/work/ch0636/projects/uwares/CCWatM"
 sett_dir="/work/ch0636/g300128/Hydrologie_Calibration"
 inidir="/work/ch0636/projects/uwares/CWatM/Toolkit/Calibration/runs_calibration/00_009"
-choice = "yes"
 
 # Execute models -------------------------------------------------------------------------
 
