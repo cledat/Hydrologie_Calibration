@@ -1,6 +1,6 @@
 [DEFAULT]
-Root = /work/ch0636/g300128
-RootPC =/work/ch0636/g300128
+Root = /work/ch0636/g300128/Hydrologie_Calibration
+RootPC =/work/ch0636/g300128/Hydrologie_Calibration
 Rootbasin = Calibration
 
 # start date of simulation outputs
@@ -11,7 +11,7 @@ timeperiod = daily
 [ObservedData]
 Qtss =  observed_data/Danube_Budapest_France_discharge_2000_2002.csv
 #Qgis = observed_data/Qgis_otta.csv
-Qtss_nc = /work/ch0636/g300128/data/GRDC-Daily-allEurope_Gauged.nc
+Qtss_nc = /work/ch0636/g300128/Hydrologie_Calibration/data/GRDC-Daily-allEurope_Gauged.nc
 
 [Path]
 Templates = templates_CWatM
@@ -47,7 +47,7 @@ pool_limit =48
 ngen = 40
 
 # Initial population, recommended 16-128
-mu =20
+mu =100
 # Runs per generation, recommended 8-16
 lambda_ = 16
 
