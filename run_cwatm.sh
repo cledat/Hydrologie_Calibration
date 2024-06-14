@@ -19,7 +19,7 @@ inidir="/work/ch0636/projects/uwares/CWatM/Toolkit/Calibration/runs_calibration/
 
 # Execute models -------------------------------------------------------------------------
 
-#read -p "Do you want to run the cwatm? (yes/no): " choice
+read -p "Do you want to run the cwatm? (yes/no): " choice
 
 if [[ $choice == "yes" ]]; then
 
