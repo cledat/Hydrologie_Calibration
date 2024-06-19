@@ -23,6 +23,18 @@ source ~/go_work.sh
 # Path to directories --------------------------------------------------------------------
 dir_in="/work/ch0636/g300128/Hydrologie_Calibration/Calibration"
 
+# Vérifie si le premier argument est vide
+if [ -z "$1" ]; then
+    # Si $1 est vide, attribuez une valeur par défaut à la variable 'entree'
+    entree="settings_calibration-netcdf.txt"
+else
+    # Si $1 a une valeur, utilisez cette valeur pour la variable 'entree'
+    entree="$1"
+fi
+
+# Affichez la valeur de la variable 'entree'
+echo "La valeur de l'entrée est : $entree"
+
 # Executing Cwatm, change accordingly
 #bash "$dir_in/run_single_calibration.sh" 
-bash "$dir_in/run_single_calibration.sh" 
+python $dir_in/scripts/calibration_single_test_netcdf.py $entree
