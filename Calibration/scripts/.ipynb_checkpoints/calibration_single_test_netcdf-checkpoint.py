@@ -85,7 +85,7 @@ SubCatchmentPath = os.path.join(rootbasin,parser.get('Path','SubCatchmentPath'))
 Qtss_csv = os.path.join(rootbasin,parser.get('ObservedData', 'Qtss'))
 Qtss_nc = os.path.join(rootbasin,parser.get('ObservedData', 'Qtss_nc'))
 #Qtss_col = parser.get('ObservedData', 'Column')
-
+regional_id = parser.get('ObservedData', 'region_id')
 modeltemplate = parser.get('Path','Templates')
 ModelSettings_template = parser.get('Templates','ModelSettings')
 RunModel_template = parser.get('Templates','RunModel')
@@ -137,8 +137,13 @@ ParamRanges = pandas.read_csv(ParamRangesPath,sep=",",index_col=0)
 
 # Load observed streamflow
 grdc =xr.open_dataset(Qtss_nc)
-stations_with_nan=list(grdc.id.where(grdc.calibrated==1).values)
+if regional_id==None :
+    stations_with_nan=list(grdc.id.where(grdc.calibrated==1).values)
+else :
+    stations_with_nan=list(grdc.id.where(grdc.PFAF_ID==int(regional_id)).values)
+    
 stations = [x for x in stations_with_nan if not np.isnan(x)]
+print('--------------------------------------------------------------------',stations_with_nan,regional_id)
 grdc_calibrated= grdc.sel(id=stations)
 ######streamflow_data = pandas.read_csv(Qtss_csv,sep=",", parse_dates=True, index_col=0)
 streamflow_data =grdc_calibrated.runoff_mean.sel(time=slice(ForcingStart, ForcingEnd))
