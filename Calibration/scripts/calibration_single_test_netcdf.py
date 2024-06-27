@@ -137,10 +137,10 @@ ParamRanges = pandas.read_csv(ParamRangesPath,sep=",",index_col=0)
 
 # Load observed streamflow
 grdc =xr.open_dataset(Qtss_nc)
-if regional_id==None :
+if regional_id=='None' :
     stations_with_nan=list(grdc.id.where(grdc.calibrated==1).values)
 else :
-    stations_with_nan=list(grdc.id.where(grdc.PFAF_ID==int(regional_id)).values)
+    stations_with_nan=list(grdc.id.where(grdc.OBJECTID==int(regional_id)).values)
     
 stations = [x for x in stations_with_nan if not np.isnan(x)]
 print('--------------------------------------------------------------------',stations_with_nan,regional_id)
