@@ -16,7 +16,7 @@ region_id = None
 # Ajouter .nc
 [Path]
 Templates = templates_CWatM
-SubCatchmentPath = runs_calibration_net_cdf
+SubCatchmentPath = runs_calibration_net_cdf2
 #SubCatchmentPath = /work/ch0636/g300128/Calibration/runs_calibration just modified to plot
 ParamRanges = ParamRanges.csv
 
