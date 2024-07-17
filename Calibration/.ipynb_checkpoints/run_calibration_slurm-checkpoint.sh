@@ -7,7 +7,7 @@
 #SBATCH --account=ch0636
 #SBATCH --ntasks-per-node=128
 #SBATCH --cpus-per-task=2
-#SBATCH --time=7-00
+#SBATCH --time=2-00
 #SBATCH --output=result-%j.txt          # output file
 #SBATCH --error=error-%j.txt          # error file
 
