@@ -1,0 +1,90 @@
+total 1489
+-rw-r--r-- 1 g300128 ch0636      0 Jul 10 15:43 error-11085606.txt
+-rw-r--r-- 1 g300128 ch0636      0 Jul 10 15:43 error-11085607.txt
+-rw-r--r-- 1 g300128 ch0636  10905 Jul 10 09:41 hydroStats.py
+-rw-r--r-- 1 g300128 ch0636   6183 Jul 10 09:55 maria_ccwatM.xlsx
+-rw-r--r-- 1 g300128 ch0636   6187 Jul 10 10:10 maria_cwatM.xlsx
+-rw-r--r-- 1 g300128 ch0636 576112 Jul  9 17:04 netcdf_analysing.ipynb
+drwxr-sr-x 2 g300128 ch0636   4096 Jul 10 09:41 __pycache__
+-rw-r--r-- 1 g300128 ch0636  33124 Jul  9 16:44 regional_calib.ipynb
+-rw-r--r-- 1 g300128 ch0636 871994 Jul  9 16:44 regression.ipynb
+-rw-r--r-- 1 g300128 ch0636      0 Jul 10 15:43 result-11085606.txt
+-rw-r--r-- 1 g300128 ch0636   1338 Jul 10 15:43 result-11085607.txt
+drwxr-sr-x 2 g300128 ch0636   4096 Jul  1 10:27 Slurm_error_result_file
+---------------------------
+Running preprocess-regional
+---------------------------
+----------------Bonjour Augustin ----------------- 
+ 
+-----------Tu serais pas beau gosse aujourd'hui ? ;) ------------------------ 
+ 
+
+Mise en place des caracteristiques de profil. 
+ Poour activer l environnement et les raccourcis, utiliser : source go_work.sh  
+ 
+------------------------------------------------------------------------------------------
+Les raccourcis sont les suivant : 
+ cdg : aller dans mon dossier de work 
+cdproj : rejoindre le dossier UWARES
+------------------------------------------------------------------------------------------
+Amuses toi bien ;)
+La valeur de l'entrée est : /work/ch0636/g300128/Hydrologie_Calibration/Calibration/regional_settings/setting_calibration433.txt
+Calibrating process using netcdf file as an enter, please make sure your enter data has the structure of a grdc dataset with in additional the gauges locations and the boolean calibrated in order to select the calibration and the validation station
+-------------------------------------------------------------------- [6113050.0, nan, nan, nan, nan, nan, 6213750.0, nan, nan, nan, nan, nan, nan, nan, nan, nan, nan, nan, nan, nan, nan, nan, nan, nan, nan, nan, nan, nan, nan, nan, nan, nan] 433
+256 48
+   run_rand_id: 40_004, KGE: 1.431
+   run_rand_id: 40_006, KGE: 1.465
+   run_rand_id: 40_011, KGE: 1.461
+   run_rand_id: 40_005, KGE: 1.455
+   run_rand_id: 40_016, KGE: 1.446
+   run_rand_id: 40_012, KGE: 1.457
+   run_rand_id: 40_008, KGE: 1.435
+   run_rand_id: 40_002, KGE: 1.458
+   run_rand_id: 40_014, KGE: 1.408
+   run_rand_id: 40_007, KGE: 1.457
+   run_rand_id: 40_013, KGE: 1.454
+   run_rand_id: 40_015, KGE: 1.446
+   run_rand_id: 40_010, KGE: 1.434
+   run_rand_id: 40_009, KGE: 1.445
+   run_rand_id: 40_001, KGE: 1.451
+   run_rand_id: 40_003, KGE: 1.431
+48
+>> gen: 40, effmax_KGE: 1.469
+>> Termination criterion ngen fulfilled.
+>> Time elapsed: 0.60 s
+>> Saving optimization history (front_history.csv)
+>> Saving Pareto optimal solutions (pareto_front.csv)
+>> Running Model using the "best" parameter set
+
+********************************************************************************
+*                                                                              *
+*  This is the automated job summary provided by DKRZ.                         *
+*  If you encounter problems, need assistance or have any suggestion, please   *
+*  write an email to                                                           *
+*                                                                              *
+*  --  support@dkrz.de --                                                      *
+*                                                                              *
+*                       We hope you enjoyed the DKRZ supercomputer LEVANTE ... *
+*
+* JobID            : 11085606
+* JobName          : runing_prep                                       
+* Account          : ch0636
+* User             : g300128 (201946), ch0636 (1303)                   
+* Partition        : shared
+* QOS              : normal
+* Nodelist         : l40014 (1)                                                
+* Submit date      : 2024-07-10T15:43:29
+* Start time       : 2024-07-10T15:43:31
+* End time         : 2024-07-10T15:44:06
+* Elapsed time     : 00:00:35 (Timelimit=2-00:00:00)                   
+* Command          : /work/ch0636/g300128/Hydrologie_Calibration/Calibration/
+*                    run_calibration_slurm.sh
+* WorkDir          : /work/ch0636/g300128/Hydrologie_Calibration/Scripts/
+*                    Notebooks
+*
+* StepID | JobName      NodeHours    MaxRSS [Byte] (@task)
+* ------------------------------------------------------------------------------
+* batch  | batch           0.0097
+* extern | extern          0.0097                2204K (0)
+* ------------------------------------------------------------------------------
+

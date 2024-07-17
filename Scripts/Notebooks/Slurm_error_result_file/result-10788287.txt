@@ -1,0 +1,128 @@
+total 253428
+-rw-r--r-- 1 g300128 ch0636    270532 Jun 20 15:59 Analyse_Calibration.ipynb
+-rw-r--r-- 1 g300128 ch0636    198571 May 23 14:04 computeKGE.ipynb
+-rw-r--r-- 1 g300128 ch0636       370 Jun 20 22:39 error-10788271.txt
+-rw-r--r-- 1 g300128 ch0636       944 Jun 21 00:30 error-10788272.txt
+-rw-r--r-- 1 g300128 ch0636       944 Jun 21 02:00 error-10788273.txt
+-rw-r--r-- 1 g300128 ch0636       944 Jun 21 03:19 error-10788274.txt
+-rw-r--r-- 1 g300128 ch0636       944 Jun 21 06:45 error-10788275.txt
+-rw-r--r-- 1 g300128 ch0636       944 Jun 21 05:53 error-10788276.txt
+-rw-r--r-- 1 g300128 ch0636       944 Jun 21 07:54 error-10788277.txt
+-rw-r--r-- 1 g300128 ch0636       944 Jun 21 08:47 error-10788278.txt
+-rw-r--r-- 1 g300128 ch0636       944 Jun 21 10:15 error-10788279.txt
+-rw-r--r-- 1 g300128 ch0636       944 Jun 21 10:36 error-10788280.txt
+-rw-r--r-- 1 g300128 ch0636       944 Jun 21 12:20 error-10788281.txt
+-rw-r--r-- 1 g300128 ch0636       944 Jun 23 13:21 error-10788282.txt
+-rw-r--r-- 1 g300128 ch0636       944 Jun 24 05:08 error-10788283.txt
+-rw-r--r-- 1 g300128 ch0636         0 Jun 24 02:25 error-10788284.txt
+-rw-r--r-- 1 g300128 ch0636         0 Jun 24 05:08 error-10788285.txt
+-rw-r--r-- 1 g300128 ch0636         0 Jun 25 11:38 error-10788286.txt
+-rw-r--r-- 1 g300128 ch0636         0 Jun 25 11:38 error-10788287.txt
+-rw-r--r-- 1 g300128 ch0636       572 Jun  7 09:52 hybas_eu_lev01_v1c.dbf
+-rw-r--r-- 1 g300128 ch0636  17483016 Jun  7 10:55 hybas_eu_lev12_v1c.dbf
+-rw-r--r-- 1 g300128 ch0636 185648244 Jun  7 10:47 hybas_eu_lev12_v1c.shp
+-rw-r--r-- 1 g300128 ch0636   1154152 Jun  7 10:40 hybas_eu_lev12_v1c.shx
+-rw-r--r-- 1 g300128 ch0636     10905 May 15 10:59 hydroStats.py
+-rw-r--r-- 1 g300128 ch0636    502804 Jun 17 10:49 map.ipynb
+-rw-r--r-- 1 g300128 ch0636    685909 Jun 20 16:49 netcdf_analysing.ipynb
+drwxr-sr-x 2 g300128 ch0636      4096 May 29 17:10 __pycache__
+-rw-r--r-- 1 g300128 ch0636     21619 Jun 21 09:20 regional_calib.ipynb
+-rw-r--r-- 1 g300128 ch0636      4382 Jun 20 22:39 result-10788271.txt
+-rw-r--r-- 1 g300128 ch0636      5114 Jun 21 00:30 result-10788272.txt
+-rw-r--r-- 1 g300128 ch0636      5255 Jun 21 02:00 result-10788273.txt
+-rw-r--r-- 1 g300128 ch0636      5393 Jun 21 03:19 result-10788274.txt
+-rw-r--r-- 1 g300128 ch0636      5543 Jun 21 06:45 result-10788275.txt
+-rw-r--r-- 1 g300128 ch0636      5670 Jun 21 05:53 result-10788276.txt
+-rw-r--r-- 1 g300128 ch0636      5825 Jun 21 07:54 result-10788277.txt
+-rw-r--r-- 1 g300128 ch0636      5960 Jun 21 08:47 result-10788278.txt
+-rw-r--r-- 1 g300128 ch0636      6101 Jun 21 10:15 result-10788279.txt
+-rw-r--r-- 1 g300128 ch0636      6242 Jun 21 10:36 result-10788280.txt
+-rw-r--r-- 1 g300128 ch0636      6383 Jun 21 12:20 result-10788281.txt
+-rw-r--r-- 1 g300128 ch0636     33742 Jun 23 13:21 result-10788282.txt
+-rw-r--r-- 1 g300128 ch0636     34237 Jun 24 05:08 result-10788283.txt
+-rw-r--r-- 1 g300128 ch0636      4395 Jun 24 02:25 result-10788284.txt
+-rw-r--r-- 1 g300128 ch0636      4536 Jun 24 05:08 result-10788285.txt
+-rw-r--r-- 1 g300128 ch0636         0 Jun 25 11:38 result-10788286.txt
+-rw-r--r-- 1 g300128 ch0636         0 Jun 25 11:38 result-10788287.txt
+-rw-r--r-- 1 g300128 ch0636     23314 Jun 17 10:48 sortie.tif
+-rw-r--r-- 1 g300128 ch0636    722076 Jun 14 17:51 station_catalogue.ipynb
+-rw-r--r-- 1 g300128 ch0636    249535 May 29 09:29 test_outputs.ipynb
+-rw-r--r-- 1 g300128 ch0636     65997 May  8 10:08 tuto.ipynb
+-rw-r--r-- 1 g300128 ch0636  52196308 May 14 16:19 ⚪ Watercycles.ipynb
+---------------------------
+Running preprocess-regional
+---------------------------
+----------------Bonjour Augustin ----------------- 
+ 
+-----------Tu serais pas beau gosse aujourd'hui ? ;) ------------------------ 
+ 
+
+Mise en place des caracteristiques de profil. 
+ Poour activer l environnement et les raccourcis, utiliser : source go_work.sh  
+ 
+------------------------------------------------------------------------------------------
+Les raccourcis sont les suivant : 
+ cdg : aller dans mon dossier de work 
+cdproj : rejoindre le dossier UWARES
+------------------------------------------------------------------------------------------
+Amuses toi bien ;)
+La valeur de l'entrée est : /work/ch0636/g300128/Hydrologie_Calibration/Calibration/regional_settings/setting_calibration2273.txt
+Calibrating process using netcdf file as an enter, please make sure your enter data has the structure of a grdc dataset with in additional the gauges locations and the boolean calibrated in order to select the calibration and the validation station
+-------------------------------------------------------------------- [nan, nan, nan, nan, nan, nan, nan, nan, nan, nan, nan, nan, nan, nan, nan, nan, nan, nan, nan, nan, nan, nan, nan, 6547500.0, nan, nan, nan, 6742451.0, nan, nan, nan, nan] 2273
+256 48
+   run_rand_id: 40_013, KGE: -0.148
+   run_rand_id: 40_015, KGE: -0.162
+   run_rand_id: 40_002, KGE: -0.280
+   run_rand_id: 40_001, KGE: -0.182
+   run_rand_id: 40_007, KGE: -0.172
+   run_rand_id: 40_009, KGE: 0.076
+   run_rand_id: 40_005, KGE: -0.177
+   run_rand_id: 40_010, KGE: -0.273
+   run_rand_id: 40_003, KGE: -0.269
+   run_rand_id: 40_016, KGE: -0.133
+   run_rand_id: 40_011, KGE: -0.204
+   run_rand_id: 40_008, KGE: -0.157
+   run_rand_id: 40_012, KGE: -0.282
+   run_rand_id: 40_014, KGE: -0.162
+   run_rand_id: 40_006, KGE: -0.344
+   run_rand_id: 40_004, KGE: -0.166
+48
+>> gen: 40, effmax_KGE: 0.076
+>> Termination criterion ngen fulfilled.
+>> Time elapsed: 0.30 s
+>> Saving optimization history (front_history.csv)
+>> Saving Pareto optimal solutions (pareto_front.csv)
+>> Running Model using the "best" parameter set
+
+********************************************************************************
+*                                                                              *
+*  This is the automated job summary provided by DKRZ.                         *
+*  If you encounter problems, need assistance or have any suggestion, please   *
+*  write an email to                                                           *
+*                                                                              *
+*  --  support@dkrz.de --                                                      *
+*                                                                              *
+*                       We hope you enjoyed the DKRZ supercomputer LEVANTE ... *
+*
+* JobID            : 10788287
+* JobName          : runing_prep                                       
+* Account          : ch0636
+* User             : g300128 (201946), ch0636 (1303)                   
+* Partition        : shared
+* QOS              : normal
+* Nodelist         : l40005 (1)                                                
+* Submit date      : 2024-06-20T10:41:24
+* Start time       : 2024-06-25T11:37:54
+* End time         : 2024-06-25T11:38:10
+* Elapsed time     : 00:00:16 (Timelimit=7-00:00:00)                   
+* Command          : /work/ch0636/g300128/Hydrologie_Calibration/Calibration/
+*                    run_calibration_slurm.sh
+* WorkDir          : /work/ch0636/g300128/Hydrologie_Calibration/Scripts/
+*                    Notebooks
+*
+* StepID | JobName      NodeHours    MaxRSS [Byte] (@task)
+* ------------------------------------------------------------------------------
+* batch  | batch           0.0044
+* extern | extern          0.0044                2204K (0)
+* ------------------------------------------------------------------------------
+

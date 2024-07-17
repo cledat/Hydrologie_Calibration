@@ -1,0 +1,8 @@
+/work/ch0636/g300128/Hydrologie_Calibration/Calibration/scripts/calibration_single_test_netcdf.py:518: FutureWarning: Starting with pandas version 3.0 all arguments of to_csv except for the argument 'path_or_buf' will be keyword-only.
+  front_history.to_csv(os.path.join(path_subcatch,"front_history.csv"),',')
+/work/ch0636/g300128/Hydrologie_Calibration/Calibration/scripts/calibration_single_test_netcdf.py:542: FutureWarning: Starting with pandas version 3.0 all arguments of to_csv except for the argument 'path_or_buf' will be keyword-only.
+  pareto_front.to_csv(os.path.join(path_subcatch,"pareto_front.csv"),',')
+Traceback (most recent call last):
+  File "/work/ch0636/g300128/Hydrologie_Calibration/Calibration/scripts/calibration_single_test_netcdf.py", line 566, in <module>
+    os.mkdir(directory_run)
+FileExistsError: [Errno 17] File exists: '/work/ch0636/g300128/Hydrologie_Calibration/Calibration/runs_calibration_12_params/433/41_best'

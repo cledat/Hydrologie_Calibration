@@ -1,0 +1,296 @@
+total 60520
+-rw-r--r-- 1 g300128 ch0636   270532 Jun 20 15:59 Analyse_Calibration.ipynb
+-rw-r--r-- 1 g300128 ch0636   198571 May 23 14:04 computeKGE.ipynb
+-rw-r--r-- 1 g300128 ch0636      254 Jul  5 16:16 error-11004537.txt
+-rw-r--r-- 1 g300128 ch0636      254 Jul  5 16:17 error-11004538.txt
+-rw-r--r-- 1 g300128 ch0636      254 Jul  5 16:18 error-11004539.txt
+-rw-r--r-- 1 g300128 ch0636      254 Jul  5 16:19 error-11004540.txt
+-rw-r--r-- 1 g300128 ch0636      254 Jul  5 16:20 error-11004541.txt
+-rw-r--r-- 1 g300128 ch0636      254 Jul  5 16:21 error-11004542.txt
+-rw-r--r-- 1 g300128 ch0636      254 Jul  5 16:21 error-11004543.txt
+-rw-r--r-- 1 g300128 ch0636      674 Jul  5 16:22 error-11004544.txt
+-rw-r--r-- 1 g300128 ch0636      674 Jul  5 16:23 error-11004545.txt
+-rw-r--r-- 1 g300128 ch0636      254 Jul  5 16:24 error-11004546.txt
+-rw-r--r-- 1 g300128 ch0636      254 Jul  5 16:25 error-11004547.txt
+-rw-r--r-- 1 g300128 ch0636      254 Jul  5 16:26 error-11004548.txt
+-rw-r--r-- 1 g300128 ch0636      254 Jul  5 16:28 error-11004549.txt
+-rw-r--r-- 1 g300128 ch0636      254 Jul  5 16:29 error-11004550.txt
+-rw-r--r-- 1 g300128 ch0636      254 Jul  5 16:31 error-11004551.txt
+-rw-r--r-- 1 g300128 ch0636      254 Jul  5 16:32 error-11004552.txt
+-rw-r--r-- 1 g300128 ch0636      254 Jul  5 16:33 error-11004553.txt
+-rw-r--r-- 1 g300128 ch0636      254 Jul  5 16:35 error-11004554.txt
+-rw-r--r-- 1 g300128 ch0636      254 Jul  5 16:36 error-11004555.txt
+-rw-r--r-- 1 g300128 ch0636      254 Jul  5 16:55 error-11004556.txt
+-rw-r--r-- 1 g300128 ch0636      254 Jul  5 17:14 error-11004557.txt
+-rw-r--r-- 1 g300128 ch0636      254 Jul  5 17:59 error-11004558.txt
+-rw-r--r-- 1 g300128 ch0636      254 Jul  5 17:34 error-11004559.txt
+-rw-r--r-- 1 g300128 ch0636      254 Jul  5 18:30 error-11004560.txt
+-rw-r--r-- 1 g300128 ch0636      674 Jul  5 18:14 error-11004561.txt
+-rw-r--r-- 1 g300128 ch0636      254 Jul  5 19:03 error-11004562.txt
+-rw-r--r-- 1 g300128 ch0636      674 Jul  5 18:44 error-11004563.txt
+-rw-r--r-- 1 g300128 ch0636      254 Jul  5 19:22 error-11004564.txt
+-rw-r--r-- 1 g300128 ch0636      254 Jul  5 19:55 error-11004565.txt
+-rw-r--r-- 1 g300128 ch0636      254 Jul  5 20:27 error-11004566.txt
+-rw-r--r-- 1 g300128 ch0636      254 Jul  5 20:48 error-11004567.txt
+-rw-r--r-- 1 g300128 ch0636      254 Jul  5 21:18 error-11004568.txt
+-rw-r--r-- 1 g300128 ch0636      254 Jul  5 21:39 error-11005048.txt
+-rw-r--r-- 1 g300128 ch0636      254 Jul  5 21:53 error-11005049.txt
+-rw-r--r-- 1 g300128 ch0636      254 Jul  5 22:08 error-11005050.txt
+-rw-r--r-- 1 g300128 ch0636      254 Jul  5 22:26 error-11005051.txt
+-rw-r--r-- 1 g300128 ch0636      254 Jul  5 22:44 error-11005052.txt
+-rw-r--r-- 1 g300128 ch0636      254 Jul  5 23:45 error-11005053.txt
+-rw-r--r-- 1 g300128 ch0636      254 Jul  5 23:16 error-11005054.txt
+-rw-r--r-- 1 g300128 ch0636      674 Jul  5 23:30 error-11005055.txt
+-rw-r--r-- 1 g300128 ch0636      674 Jul  6 00:01 error-11005056.txt
+-rw-r--r-- 1 g300128 ch0636      254 Jul  6 00:29 error-11005057.txt
+-rw-r--r-- 1 g300128 ch0636      254 Jul  6 00:14 error-11005058.txt
+-rw-r--r-- 1 g300128 ch0636      254 Jul  6 00:59 error-11005059.txt
+-rw-r--r-- 1 g300128 ch0636      254 Jul  6 00:46 error-11005060.txt
+-rw-r--r-- 1 g300128 ch0636      254 Jul  6 01:37 error-11005061.txt
+-rw-r--r-- 1 g300128 ch0636      254 Jul  6 01:58 error-11005062.txt
+-rw-r--r-- 1 g300128 ch0636      254 Jul  6 02:26 error-11005063.txt
+-rw-r--r-- 1 g300128 ch0636      254 Jul  6 02:12 error-11005064.txt
+-rw-r--r-- 1 g300128 ch0636      254 Jul  6 03:03 error-11005065.txt
+-rw-r--r-- 1 g300128 ch0636      254 Jul  6 02:45 error-11005066.txt
+-rw-r--r-- 1 g300128 ch0636      254 Jul  6 03:21 error-11005067.txt
+-rw-r--r-- 1 g300128 ch0636      254 Jul  6 03:37 error-11005068.txt
+-rw-r--r-- 1 g300128 ch0636      254 Jul  6 03:56 error-11005069.txt
+-rw-r--r-- 1 g300128 ch0636      254 Jul  6 04:24 error-11005070.txt
+-rw-r--r-- 1 g300128 ch0636      254 Jul  6 04:10 error-11005072.txt
+-rw-r--r-- 1 g300128 ch0636      674 Jul  6 05:03 error-11005073.txt
+-rw-r--r-- 1 g300128 ch0636      254 Jul  6 04:44 error-11005074.txt
+-rw-r--r-- 1 g300128 ch0636      674 Jul  6 05:51 error-11005075.txt
+-rw-r--r-- 1 g300128 ch0636      254 Jul  6 05:17 error-11005076.txt
+-rw-r--r-- 1 g300128 ch0636      254 Jul  6 06:07 error-11005077.txt
+-rw-r--r-- 1 g300128 ch0636      254 Jul  6 06:39 error-11005078.txt
+-rw-r--r-- 1 g300128 ch0636      254 Jul  6 06:59 error-11005079.txt
+-rw-r--r-- 1 g300128 ch0636      254 Jul  6 07:27 error-11005080.txt
+-rw-r--r-- 1 g300128 ch0636        0 Jul  8 11:19 error-11041002.txt
+-rw-r--r-- 1 g300128 ch0636    10905 May 15 10:59 hydroStats.py
+-rw-r--r-- 1 g300128 ch0636   895831 Jun 26 16:16 map.ipynb
+-rw-r--r-- 1 g300128 ch0636   666377 Jul  5 14:06 netcdf_analysing.ipynb
+drwxr-sr-x 2 g300128 ch0636     4096 May 29 17:10 __pycache__
+-rw-r--r-- 1 g300128 ch0636    28645 Jul  8 11:17 regional_calib.ipynb
+-rw-r--r-- 1 g300128 ch0636   871994 Jul  3 12:07 regression.ipynb
+-rw-r--r-- 1 g300128 ch0636     4024 Jul  5 16:17 result-11004537.txt
+-rw-r--r-- 1 g300128 ch0636     4163 Jul  5 16:17 result-11004538.txt
+-rw-r--r-- 1 g300128 ch0636     4302 Jul  5 16:18 result-11004539.txt
+-rw-r--r-- 1 g300128 ch0636     4441 Jul  5 16:19 result-11004540.txt
+-rw-r--r-- 1 g300128 ch0636     4580 Jul  5 16:20 result-11004541.txt
+-rw-r--r-- 1 g300128 ch0636     4719 Jul  5 16:21 result-11004542.txt
+-rw-r--r-- 1 g300128 ch0636     4858 Jul  5 16:21 result-11004543.txt
+-rw-r--r-- 1 g300128 ch0636     4997 Jul  5 16:22 result-11004544.txt
+-rw-r--r-- 1 g300128 ch0636     5136 Jul  5 16:23 result-11004545.txt
+-rw-r--r-- 1 g300128 ch0636     5275 Jul  5 16:24 result-11004546.txt
+-rw-r--r-- 1 g300128 ch0636     5414 Jul  5 16:25 result-11004547.txt
+-rw-r--r-- 1 g300128 ch0636     5553 Jul  5 16:26 result-11004548.txt
+-rw-r--r-- 1 g300128 ch0636     5692 Jul  5 16:28 result-11004549.txt
+-rw-r--r-- 1 g300128 ch0636     5831 Jul  5 16:29 result-11004550.txt
+-rw-r--r-- 1 g300128 ch0636     5970 Jul  5 16:31 result-11004551.txt
+-rw-r--r-- 1 g300128 ch0636     6109 Jul  5 16:32 result-11004552.txt
+-rw-r--r-- 1 g300128 ch0636     6248 Jul  5 16:33 result-11004553.txt
+-rw-r--r-- 1 g300128 ch0636     6387 Jul  5 16:35 result-11004554.txt
+-rw-r--r-- 1 g300128 ch0636   107161 Jul  5 16:55 result-11004555.txt
+-rw-r--r-- 1 g300128 ch0636   107300 Jul  5 17:14 result-11004556.txt
+-rw-r--r-- 1 g300128 ch0636   107439 Jul  5 17:34 result-11004557.txt
+-rw-r--r-- 1 g300128 ch0636   107717 Jul  5 18:13 result-11004558.txt
+-rw-r--r-- 1 g300128 ch0636   107578 Jul  5 17:59 result-11004559.txt
+-rw-r--r-- 1 g300128 ch0636   107995 Jul  5 18:44 result-11004560.txt
+-rw-r--r-- 1 g300128 ch0636   107856 Jul  5 18:29 result-11004561.txt
+-rw-r--r-- 1 g300128 ch0636   108273 Jul  5 19:22 result-11004562.txt
+-rw-r--r-- 1 g300128 ch0636   108134 Jul  5 19:02 result-11004563.txt
+-rw-r--r-- 1 g300128 ch0636   108412 Jul  5 19:54 result-11004564.txt
+-rw-r--r-- 1 g300128 ch0636   108551 Jul  5 20:26 result-11004565.txt
+-rw-r--r-- 1 g300128 ch0636   108690 Jul  5 20:47 result-11004566.txt
+-rw-r--r-- 1 g300128 ch0636   108829 Jul  5 21:18 result-11004567.txt
+-rw-r--r-- 1 g300128 ch0636   108968 Jul  5 21:38 result-11004568.txt
+-rw-r--r-- 1 g300128 ch0636   109107 Jul  5 21:53 result-11005048.txt
+-rw-r--r-- 1 g300128 ch0636   109246 Jul  5 22:08 result-11005049.txt
+-rw-r--r-- 1 g300128 ch0636   109385 Jul  5 22:25 result-11005050.txt
+-rw-r--r-- 1 g300128 ch0636   109524 Jul  5 22:43 result-11005051.txt
+-rw-r--r-- 1 g300128 ch0636   109663 Jul  5 23:15 result-11005052.txt
+-rw-r--r-- 1 g300128 ch0636   110080 Jul  6 00:00 result-11005053.txt
+-rw-r--r-- 1 g300128 ch0636   109802 Jul  5 23:30 result-11005054.txt
+-rw-r--r-- 1 g300128 ch0636   109941 Jul  5 23:45 result-11005055.txt
+-rw-r--r-- 1 g300128 ch0636   110219 Jul  6 00:13 result-11005056.txt
+-rw-r--r-- 1 g300128 ch0636   110497 Jul  6 00:45 result-11005057.txt
+-rw-r--r-- 1 g300128 ch0636   110358 Jul  6 00:29 result-11005058.txt
+-rw-r--r-- 1 g300128 ch0636   110775 Jul  6 01:37 result-11005059.txt
+-rw-r--r-- 1 g300128 ch0636   110636 Jul  6 00:59 result-11005060.txt
+-rw-r--r-- 1 g300128 ch0636   110914 Jul  6 01:57 result-11005061.txt
+-rw-r--r-- 1 g300128 ch0636   111053 Jul  6 02:12 result-11005062.txt
+-rw-r--r-- 1 g300128 ch0636   111331 Jul  6 02:45 result-11005063.txt
+-rw-r--r-- 1 g300128 ch0636   111192 Jul  6 02:26 result-11005064.txt
+-rw-r--r-- 1 g300128 ch0636   111609 Jul  6 03:20 result-11005065.txt
+-rw-r--r-- 1 g300128 ch0636   111470 Jul  6 03:03 result-11005066.txt
+-rw-r--r-- 1 g300128 ch0636   111748 Jul  6 03:37 result-11005067.txt
+-rw-r--r-- 1 g300128 ch0636   111887 Jul  6 03:55 result-11005068.txt
+-rw-r--r-- 1 g300128 ch0636   112026 Jul  6 04:09 result-11005069.txt
+-rw-r--r-- 1 g300128 ch0636   112304 Jul  6 04:44 result-11005070.txt
+-rw-r--r-- 1 g300128 ch0636   112165 Jul  6 04:23 result-11005072.txt
+-rw-r--r-- 1 g300128 ch0636   112582 Jul  6 05:17 result-11005073.txt
+-rw-r--r-- 1 g300128 ch0636   112443 Jul  6 05:03 result-11005074.txt
+-rw-r--r-- 1 g300128 ch0636   112860 Jul  6 06:07 result-11005075.txt
+-rw-r--r-- 1 g300128 ch0636   112721 Jul  6 05:51 result-11005076.txt
+-rw-r--r-- 1 g300128 ch0636   112999 Jul  6 06:39 result-11005077.txt
+-rw-r--r-- 1 g300128 ch0636   113138 Jul  6 06:59 result-11005078.txt
+-rw-r--r-- 1 g300128 ch0636   113277 Jul  6 07:26 result-11005079.txt
+-rw-r--r-- 1 g300128 ch0636   113416 Jul  6 07:47 result-11005080.txt
+-rw-r--r-- 1 g300128 ch0636        0 Jul  8 11:19 result-11041002.txt
+drwxr-sr-x 2 g300128 ch0636     4096 Jul  1 10:27 Slurm_error_result_file
+-rw-r--r-- 1 g300128 ch0636   722076 Jun 14 17:51 station_catalogue.ipynb
+-rw-r--r-- 1 g300128 ch0636   249535 May 29 09:29 test_outputs.ipynb
+-rw-r--r-- 1 g300128 ch0636    65997 May  8 10:08 tuto.ipynb
+-rw-r--r-- 1 g300128 ch0636 52196308 May 14 16:19 ⚪ Watercycles.ipynb
+---------------------------
+Running preprocess-regional
+---------------------------
+----------------Bonjour Augustin ----------------- 
+ 
+-----------Tu serais pas beau gosse aujourd'hui ? ;) ------------------------ 
+ 
+
+Mise en place des caracteristiques de profil. 
+ Poour activer l environnement et les raccourcis, utiliser : source go_work.sh  
+ 
+------------------------------------------------------------------------------------------
+Les raccourcis sont les suivant : 
+ cdg : aller dans mon dossier de work 
+cdproj : rejoindre le dossier UWARES
+------------------------------------------------------------------------------------------
+Amuses toi bien ;)
+La valeur de l'entrée est : /work/ch0636/g300128/Hydrologie_Calibration/Calibration/regional_settings/setting_calibration436.txt
+Calibrating process using netcdf file as an enter, please make sure your enter data has the structure of a grdc dataset with in additional the gauges locations and the boolean calibrated in order to select the calibration and the validation station
+-------------------------------------------------------------------- [nan, 6116200.0, nan, nan, nan, nan, nan, nan, nan, nan, nan, nan, nan, nan, nan, nan, nan, nan, nan, nan, nan, nan, nan, nan, nan, nan, nan, nan, nan, nan, nan, nan] 436
+256 48
+48
+run_rand_id: 00_028 File: /work/ch0636/g300128/Hydrologie_Calibration/Calibration/runs_calibration_12_params/436/00_028/discharge_daily.tss
+run_rand_id: 00_051 File: /work/ch0636/g300128/Hydrologie_Calibration/Calibration/runs_calibration_12_params/436/00_051/discharge_daily.tss
+run_rand_id: 00_044 File: /work/ch0636/g300128/Hydrologie_Calibration/Calibration/runs_calibration_12_params/436/00_044/discharge_daily.tss
+run_rand_id: 00_091 File: /work/ch0636/g300128/Hydrologie_Calibration/Calibration/runs_calibration_12_params/436/00_091/discharge_daily.tss
+run_rand_id: 00_020 File: /work/ch0636/g300128/Hydrologie_Calibration/Calibration/runs_calibration_12_params/436/00_020/discharge_daily.tss
+run_rand_id: 00_071 File: /work/ch0636/g300128/Hydrologie_Calibration/Calibration/runs_calibration_12_params/436/00_071/discharge_daily.tss
+run_rand_id: 00_017 File: /work/ch0636/g300128/Hydrologie_Calibration/Calibration/runs_calibration_12_params/436/00_017/discharge_daily.tss
+run_rand_id: 00_060 File: /work/ch0636/g300128/Hydrologie_Calibration/Calibration/runs_calibration_12_params/436/00_060/discharge_daily.tss
+run_rand_id: 00_005 File: /work/ch0636/g300128/Hydrologie_Calibration/Calibration/runs_calibration_12_params/436/00_005/discharge_daily.tss
+run_rand_id: 00_067 File: /work/ch0636/g300128/Hydrologie_Calibration/Calibration/runs_calibration_12_params/436/00_067/discharge_daily.tss
+run_rand_id: 00_032 File: /work/ch0636/g300128/Hydrologie_Calibration/Calibration/runs_calibration_12_params/436/00_032/discharge_daily.tss
+run_rand_id: 00_054 File: /work/ch0636/g300128/Hydrologie_Calibration/Calibration/runs_calibration_12_params/436/00_054/discharge_daily.tss
+run_rand_id: 00_007 File: /work/ch0636/g300128/Hydrologie_Calibration/Calibration/runs_calibration_12_params/436/00_007/discharge_daily.tss
+run_rand_id: 00_064 File: /work/ch0636/g300128/Hydrologie_Calibration/Calibration/runs_calibration_12_params/436/00_064/discharge_daily.tss
+run_rand_id: 00_002 File: /work/ch0636/g300128/Hydrologie_Calibration/Calibration/runs_calibration_12_params/436/00_002/discharge_daily.tss
+run_rand_id: 00_089 File: /work/ch0636/g300128/Hydrologie_Calibration/Calibration/runs_calibration_12_params/436/00_089/discharge_daily.tss
+run_rand_id: 00_043 File: /work/ch0636/g300128/Hydrologie_Calibration/Calibration/runs_calibration_12_params/436/00_043/discharge_daily.tss
+run_rand_id: 00_088 File: /work/ch0636/g300128/Hydrologie_Calibration/Calibration/runs_calibration_12_params/436/00_088/discharge_daily.tss
+run_rand_id: 00_024 File: /work/ch0636/g300128/Hydrologie_Calibration/Calibration/runs_calibration_12_params/436/00_024/discharge_daily.tss
+run_rand_id: 00_074 File: /work/ch0636/g300128/Hydrologie_Calibration/Calibration/runs_calibration_12_params/436/00_074/discharge_daily.tss
+run_rand_id: 00_034 File: /work/ch0636/g300128/Hydrologie_Calibration/Calibration/runs_calibration_12_params/436/00_034/discharge_daily.tss
+run_rand_id: 00_095 File: /work/ch0636/g300128/Hydrologie_Calibration/Calibration/runs_calibration_12_params/436/00_095/discharge_daily.tss
+run_rand_id: 00_041 File: /work/ch0636/g300128/Hydrologie_Calibration/Calibration/runs_calibration_12_params/436/00_041/discharge_daily.tss
+run_rand_id: 00_057 File: /work/ch0636/g300128/Hydrologie_Calibration/Calibration/runs_calibration_12_params/436/00_057/discharge_daily.tss
+run_rand_id: 00_013 File: /work/ch0636/g300128/Hydrologie_Calibration/Calibration/runs_calibration_12_params/436/00_013/discharge_daily.tss
+run_rand_id: 00_055 File: /work/ch0636/g300128/Hydrologie_Calibration/Calibration/runs_calibration_12_params/436/00_055/discharge_daily.tss
+run_rand_id: 00_027 File: /work/ch0636/g300128/Hydrologie_Calibration/Calibration/runs_calibration_12_params/436/00_027/discharge_daily.tss
+run_rand_id: 00_073 File: /work/ch0636/g300128/Hydrologie_Calibration/Calibration/runs_calibration_12_params/436/00_073/discharge_daily.tss
+run_rand_id: 00_040 File: /work/ch0636/g300128/Hydrologie_Calibration/Calibration/runs_calibration_12_params/436/00_040/discharge_daily.tss
+run_rand_id: 00_093 File: /work/ch0636/g300128/Hydrologie_Calibration/Calibration/runs_calibration_12_params/436/00_093/discharge_daily.tss
+run_rand_id: 00_003 File: /work/ch0636/g300128/Hydrologie_Calibration/Calibration/runs_calibration_12_params/436/00_003/discharge_daily.tss
+run_rand_id: 00_056 File: /work/ch0636/g300128/Hydrologie_Calibration/Calibration/runs_calibration_12_params/436/00_056/discharge_daily.tss
+run_rand_id: 00_021 File: /work/ch0636/g300128/Hydrologie_Calibration/Calibration/runs_calibration_12_params/436/00_021/discharge_daily.tss
+run_rand_id: 00_075 File: /work/ch0636/g300128/Hydrologie_Calibration/Calibration/runs_calibration_12_params/436/00_075/discharge_daily.tss
+run_rand_id: 00_019 File: /work/ch0636/g300128/Hydrologie_Calibration/Calibration/runs_calibration_12_params/436/00_019/discharge_daily.tss
+run_rand_id: 00_050 File: /work/ch0636/g300128/Hydrologie_Calibration/Calibration/runs_calibration_12_params/436/00_050/discharge_daily.tss
+run_rand_id: 00_042 File: /work/ch0636/g300128/Hydrologie_Calibration/Calibration/runs_calibration_12_params/436/00_042/discharge_daily.tss
+run_rand_id: 00_081 File: /work/ch0636/g300128/Hydrologie_Calibration/Calibration/runs_calibration_12_params/436/00_081/discharge_daily.tss
+run_rand_id: 00_006 File: /work/ch0636/g300128/Hydrologie_Calibration/Calibration/runs_calibration_12_params/436/00_006/discharge_daily.tss
+run_rand_id: 00_070 File: /work/ch0636/g300128/Hydrologie_Calibration/Calibration/runs_calibration_12_params/436/00_070/discharge_daily.tss
+run_rand_id: 00_046 File: /work/ch0636/g300128/Hydrologie_Calibration/Calibration/runs_calibration_12_params/436/00_046/discharge_daily.tss
+run_rand_id: 00_053 File: /work/ch0636/g300128/Hydrologie_Calibration/Calibration/runs_calibration_12_params/436/00_053/discharge_daily.tss
+run_rand_id: 00_023 File: /work/ch0636/g300128/Hydrologie_Calibration/Calibration/runs_calibration_12_params/436/00_023/discharge_daily.tss
+run_rand_id: 00_062 File: /work/ch0636/g300128/Hydrologie_Calibration/Calibration/runs_calibration_12_params/436/00_062/discharge_daily.tss
+run_rand_id: 00_045 File: /work/ch0636/g300128/Hydrologie_Calibration/Calibration/runs_calibration_12_params/436/00_045/discharge_daily.tss
+run_rand_id: 00_092 File: /work/ch0636/g300128/Hydrologie_Calibration/Calibration/runs_calibration_12_params/436/00_092/discharge_daily.tss
+run_rand_id: 00_012 File: /work/ch0636/g300128/Hydrologie_Calibration/Calibration/runs_calibration_12_params/436/00_012/discharge_daily.tss
+run_rand_id: 00_052 File: /work/ch0636/g300128/Hydrologie_Calibration/Calibration/runs_calibration_12_params/436/00_052/discharge_daily.tss
+run_rand_id: 00_038 File: /work/ch0636/g300128/Hydrologie_Calibration/Calibration/runs_calibration_12_params/436/00_038/discharge_daily.tss
+run_rand_id: 00_078 File: /work/ch0636/g300128/Hydrologie_Calibration/Calibration/runs_calibration_12_params/436/00_078/discharge_daily.tss
+run_rand_id: 00_008 File: /work/ch0636/g300128/Hydrologie_Calibration/Calibration/runs_calibration_12_params/436/00_008/discharge_daily.tss
+run_rand_id: 00_063 File: /work/ch0636/g300128/Hydrologie_Calibration/Calibration/runs_calibration_12_params/436/00_063/discharge_daily.tss
+run_rand_id: 00_022 File: /work/ch0636/g300128/Hydrologie_Calibration/Calibration/runs_calibration_12_params/436/00_022/discharge_daily.tss
+run_rand_id: 00_079 File: /work/ch0636/g300128/Hydrologie_Calibration/Calibration/runs_calibration_12_params/436/00_079/discharge_daily.tss
+run_rand_id: 00_025 File: /work/ch0636/g300128/Hydrologie_Calibration/Calibration/runs_calibration_12_params/436/00_025/discharge_daily.tss
+run_rand_id: 00_072 File: /work/ch0636/g300128/Hydrologie_Calibration/Calibration/runs_calibration_12_params/436/00_072/discharge_daily.tss
+run_rand_id: 00_015 File: /work/ch0636/g300128/Hydrologie_Calibration/Calibration/runs_calibration_12_params/436/00_015/discharge_daily.tss
+run_rand_id: 00_086 File: /work/ch0636/g300128/Hydrologie_Calibration/Calibration/runs_calibration_12_params/436/00_086/discharge_daily.tss
+run_rand_id: 00_009 File: /work/ch0636/g300128/Hydrologie_Calibration/Calibration/runs_calibration_12_params/436/00_009/discharge_daily.tss
+run_rand_id: 00_087 File: /work/ch0636/g300128/Hydrologie_Calibration/Calibration/runs_calibration_12_params/436/00_087/discharge_daily.tss
+run_rand_id: 00_011 File: /work/ch0636/g300128/Hydrologie_Calibration/Calibration/runs_calibration_12_params/436/00_011/discharge_daily.tss
+run_rand_id: 00_069 File: /work/ch0636/g300128/Hydrologie_Calibration/Calibration/runs_calibration_12_params/436/00_069/discharge_daily.tss
+run_rand_id: 00_037 File: /work/ch0636/g300128/Hydrologie_Calibration/Calibration/runs_calibration_12_params/436/00_037/discharge_daily.tss
+run_rand_id: 00_090 File: /work/ch0636/g300128/Hydrologie_Calibration/Calibration/runs_calibration_12_params/436/00_090/discharge_daily.tss
+run_rand_id: 00_035 File: /work/ch0636/g300128/Hydrologie_Calibration/Calibration/runs_calibration_12_params/436/00_035/discharge_daily.tss
+run_rand_id: 00_065 File: /work/ch0636/g300128/Hydrologie_Calibration/Calibration/runs_calibration_12_params/436/00_065/discharge_daily.tss
+run_rand_id: 00_016 File: /work/ch0636/g300128/Hydrologie_Calibration/Calibration/runs_calibration_12_params/436/00_016/discharge_daily.tss
+run_rand_id: 00_058 File: /work/ch0636/g300128/Hydrologie_Calibration/Calibration/runs_calibration_12_params/436/00_058/discharge_daily.tss
+run_rand_id: 00_018 File: /work/ch0636/g300128/Hydrologie_Calibration/Calibration/runs_calibration_12_params/436/00_018/discharge_daily.tss
+run_rand_id: 00_096 File: /work/ch0636/g300128/Hydrologie_Calibration/Calibration/runs_calibration_12_params/436/00_096/discharge_daily.tss
+run_rand_id: 00_031 File: /work/ch0636/g300128/Hydrologie_Calibration/Calibration/runs_calibration_12_params/436/00_031/discharge_daily.tss
+run_rand_id: 00_061 File: /work/ch0636/g300128/Hydrologie_Calibration/Calibration/runs_calibration_12_params/436/00_061/discharge_daily.tss
+run_rand_id: 00_030 File: /work/ch0636/g300128/Hydrologie_Calibration/Calibration/runs_calibration_12_params/436/00_030/discharge_daily.tss
+run_rand_id: 00_066 File: /work/ch0636/g300128/Hydrologie_Calibration/Calibration/runs_calibration_12_params/436/00_066/discharge_daily.tss
+run_rand_id: 00_033 File: /work/ch0636/g300128/Hydrologie_Calibration/Calibration/runs_calibration_12_params/436/00_033/discharge_daily.tss
+run_rand_id: 00_082 File: /work/ch0636/g300128/Hydrologie_Calibration/Calibration/runs_calibration_12_params/436/00_082/discharge_daily.tss
+run_rand_id: 00_048 File: /work/ch0636/g300128/Hydrologie_Calibration/Calibration/runs_calibration_12_params/436/00_048/discharge_daily.tss
+run_rand_id: 00_076 File: /work/ch0636/g300128/Hydrologie_Calibration/Calibration/runs_calibration_12_params/436/00_076/discharge_daily.tss
+run_rand_id: 00_010 File: /work/ch0636/g300128/Hydrologie_Calibration/Calibration/runs_calibration_12_params/436/00_010/discharge_daily.tss
+run_rand_id: 00_068 File: /work/ch0636/g300128/Hydrologie_Calibration/Calibration/runs_calibration_12_params/436/00_068/discharge_daily.tss
+run_rand_id: 00_026 File: /work/ch0636/g300128/Hydrologie_Calibration/Calibration/runs_calibration_12_params/436/00_026/discharge_daily.tss
+run_rand_id: 00_083 File: /work/ch0636/g300128/Hydrologie_Calibration/Calibration/runs_calibration_12_params/436/00_083/discharge_daily.tss
+run_rand_id: 00_036 File: /work/ch0636/g300128/Hydrologie_Calibration/Calibration/runs_calibration_12_params/436/00_036/discharge_daily.tss
+run_rand_id: 00_059 File: /work/ch0636/g300128/Hydrologie_Calibration/Calibration/runs_calibration_12_params/436/00_059/discharge_daily.tss
+run_rand_id: 00_039 File: /work/ch0636/g300128/Hydrologie_Calibration/Calibration/runs_calibration_12_params/436/00_039/discharge_daily.tss
+run_rand_id: 00_094 File: /work/ch0636/g300128/Hydrologie_Calibration/Calibration/runs_calibration_12_params/436/00_094/discharge_daily.tss
+run_rand_id: 00_004 File: /work/ch0636/g300128/Hydrologie_Calibration/Calibration/runs_calibration_12_params/436/00_004/discharge_daily.tss
+run_rand_id: 00_084 File: /work/ch0636/g300128/Hydrologie_Calibration/Calibration/runs_calibration_12_params/436/00_084/discharge_daily.tss
+run_rand_id: 00_047 File: /work/ch0636/g300128/Hydrologie_Calibration/Calibration/runs_calibration_12_params/436/00_047/discharge_daily.tss
+run_rand_id: 00_080 File: /work/ch0636/g300128/Hydrologie_Calibration/Calibration/runs_calibration_12_params/436/00_080/discharge_daily.tss
+run_rand_id: 00_098 File: /work/ch0636/g300128/Hydrologie_Calibration/Calibration/runs_calibration_12_params/436/00_098/discharge_daily.tss
+run_rand_id: 00_014 File: /work/ch0636/g300128/Hydrologie_Calibration/Calibration/runs_calibration_12_params/436/00_014/discharge_daily.tss
+run_rand_id: 00_077 File: /work/ch0636/g300128/Hydrologie_Calibration/Calibration/runs_calibration_12_params/436/00_077/discharge_daily.tss
+run_rand_id: 00_097 File: /work/ch0636/g300128/Hydrologie_Calibration/Calibration/runs_calibration_12_params/436/00_097/discharge_daily.tss
+run_rand_id: 00_029 File: /work/ch0636/g300128/Hydrologie_Calibration/Calibration/runs_calibration_12_params/436/00_029/discharge_daily.tss
+run_rand_id: 00_085 File: /work/ch0636/g300128/Hydrologie_Calibration/Calibration/runs_calibration_12_params/436/00_085/discharge_daily.tss
+run_rand_id: 00_100 File: /work/ch0636/g300128/Hydrologie_Calibration/Calibration/runs_calibration_12_params/436/00_100/discharge_daily.tss
+
+********************************************************************************
+*                                                                              *
+*  This is the automated job summary provided by DKRZ.                         *
+*  If you encounter problems, need assistance or have any suggestion, please   *
+*  write an email to                                                           *
+*                                                                              *
+*  --  support@dkrz.de --                                                      *
+*                                                                              *
+*                       We hope you enjoyed the DKRZ supercomputer LEVANTE ... *
+*
+* JobID            : 11041002
+* JobName          : runing_prep                                       
+* Account          : ch0636
+* User             : g300128 (201946), ch0636 (1303)                   
+* Partition        : shared
+* QOS              : normal
+* Nodelist         : l40014 (1)                                                
+* Submit date      : 2024-07-08T11:19:07
+* Start time       : 2024-07-08T11:19:09
+* End time         : 2024-07-08T11:19:32
+* Elapsed time     : 00:00:23 (Timelimit=7-00:00:00)                   
+* Command          : /work/ch0636/g300128/Hydrologie_Calibration/Calibration/
+*                    run_calibration_slurm.sh
+* WorkDir          : /work/ch0636/g300128/Hydrologie_Calibration/Scripts/
+*                    Notebooks
+*
+* StepID | JobName      NodeHours    MaxRSS [Byte] (@task)
+* ------------------------------------------------------------------------------
+* batch  | batch           0.0064
+* extern | extern          0.0064                2204K (0)
+* ------------------------------------------------------------------------------
+

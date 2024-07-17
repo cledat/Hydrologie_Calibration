@@ -1,0 +1,883 @@
+total 253332
+-rw-r--r-- 1 g300128 ch0636    270532 Jun 20 15:59 Analyse_Calibration.ipynb
+-rw-r--r-- 1 g300128 ch0636    198571 May 23 14:04 computeKGE.ipynb
+-rw-r--r-- 1 g300128 ch0636       370 Jun 20 22:39 error-10788271.txt
+-rw-r--r-- 1 g300128 ch0636       944 Jun 21 00:30 error-10788272.txt
+-rw-r--r-- 1 g300128 ch0636       944 Jun 21 02:00 error-10788273.txt
+-rw-r--r-- 1 g300128 ch0636       944 Jun 21 03:19 error-10788274.txt
+-rw-r--r-- 1 g300128 ch0636       944 Jun 21 06:45 error-10788275.txt
+-rw-r--r-- 1 g300128 ch0636       944 Jun 21 05:53 error-10788276.txt
+-rw-r--r-- 1 g300128 ch0636       944 Jun 21 07:54 error-10788277.txt
+-rw-r--r-- 1 g300128 ch0636       944 Jun 21 08:47 error-10788278.txt
+-rw-r--r-- 1 g300128 ch0636       944 Jun 21 10:15 error-10788279.txt
+-rw-r--r-- 1 g300128 ch0636       944 Jun 21 10:36 error-10788280.txt
+-rw-r--r-- 1 g300128 ch0636       944 Jun 21 12:20 error-10788281.txt
+-rw-r--r-- 1 g300128 ch0636         0 Jun 23 01:41 error-10788282.txt
+-rw-r--r-- 1 g300128 ch0636       572 Jun  7 09:52 hybas_eu_lev01_v1c.dbf
+-rw-r--r-- 1 g300128 ch0636  17483016 Jun  7 10:55 hybas_eu_lev12_v1c.dbf
+-rw-r--r-- 1 g300128 ch0636 185648244 Jun  7 10:47 hybas_eu_lev12_v1c.shp
+-rw-r--r-- 1 g300128 ch0636   1154152 Jun  7 10:40 hybas_eu_lev12_v1c.shx
+-rw-r--r-- 1 g300128 ch0636     10905 May 15 10:59 hydroStats.py
+-rw-r--r-- 1 g300128 ch0636    502804 Jun 17 10:49 map.ipynb
+-rw-r--r-- 1 g300128 ch0636    685909 Jun 20 16:49 netcdf_analysing.ipynb
+drwxr-sr-x 2 g300128 ch0636      4096 May 29 17:10 __pycache__
+-rw-r--r-- 1 g300128 ch0636     21619 Jun 21 09:20 regional_calib.ipynb
+-rw-r--r-- 1 g300128 ch0636      4382 Jun 20 22:39 result-10788271.txt
+-rw-r--r-- 1 g300128 ch0636      5114 Jun 21 00:30 result-10788272.txt
+-rw-r--r-- 1 g300128 ch0636      5255 Jun 21 02:00 result-10788273.txt
+-rw-r--r-- 1 g300128 ch0636      5393 Jun 21 03:19 result-10788274.txt
+-rw-r--r-- 1 g300128 ch0636      5543 Jun 21 06:45 result-10788275.txt
+-rw-r--r-- 1 g300128 ch0636      5670 Jun 21 05:53 result-10788276.txt
+-rw-r--r-- 1 g300128 ch0636      5825 Jun 21 07:54 result-10788277.txt
+-rw-r--r-- 1 g300128 ch0636      5960 Jun 21 08:47 result-10788278.txt
+-rw-r--r-- 1 g300128 ch0636      6101 Jun 21 10:15 result-10788279.txt
+-rw-r--r-- 1 g300128 ch0636      6242 Jun 21 10:36 result-10788280.txt
+-rw-r--r-- 1 g300128 ch0636      6383 Jun 21 12:20 result-10788281.txt
+-rw-r--r-- 1 g300128 ch0636         0 Jun 23 01:41 result-10788282.txt
+-rw-r--r-- 1 g300128 ch0636     23314 Jun 17 10:48 sortie.tif
+-rw-r--r-- 1 g300128 ch0636    722076 Jun 14 17:51 station_catalogue.ipynb
+-rw-r--r-- 1 g300128 ch0636    249535 May 29 09:29 test_outputs.ipynb
+-rw-r--r-- 1 g300128 ch0636     65997 May  8 10:08 tuto.ipynb
+-rw-r--r-- 1 g300128 ch0636  52196308 May 14 16:19 ⚪ Watercycles.ipynb
+---------------------------
+Running preprocess-regional
+---------------------------
+----------------Bonjour Augustin ----------------- 
+ 
+-----------Tu serais pas beau gosse aujourd'hui ? ;) ------------------------ 
+ 
+
+Mise en place des caracteristiques de profil. 
+ Poour activer l environnement et les raccourcis, utiliser : source go_work.sh  
+ 
+------------------------------------------------------------------------------------------
+Les raccourcis sont les suivant : 
+ cdg : aller dans mon dossier de work 
+cdproj : rejoindre le dossier UWARES
+------------------------------------------------------------------------------------------
+Amuses toi bien ;)
+La valeur de l'entrée est : /work/ch0636/g300128/Hydrologie_Calibration/Calibration/regional_settings/setting_calibration2424.txt
+Calibrating process using netcdf file as an enter, please make sure your enter data has the structure of a grdc dataset with in additional the gauges locations and the boolean calibrated in order to select the calibration and the validation station
+-------------------------------------------------------------------- [nan, nan, nan, nan, nan, nan, nan, nan, nan, nan, nan, nan, nan, nan, nan, nan, nan, nan, nan, nan, nan, nan, 6458460.0, nan, nan, nan, nan, nan, nan, nan, nan, nan] 2424
+256 48
+   run_rand_id: 00_026, KGE: -0.416
+   run_rand_id: 00_085, KGE: -0.274
+   run_rand_id: 02_009, KGE: -0.112
+   run_rand_id: 05_004, KGE: -0.119
+   run_rand_id: 08_001, KGE: 0.122
+   run_rand_id: 11_013, KGE: -0.068
+   run_rand_id: 14_015, KGE: 0.016
+   run_rand_id: 17_014, KGE: 0.000
+   run_rand_id: 20_008, KGE: -0.029
+   run_rand_id: 23_016, KGE: 0.051
+   run_rand_id: 26_007, KGE: 0.099
+   run_rand_id: 29_016, KGE: 0.065
+   run_rand_id: 32_003, KGE: 0.112
+   run_rand_id: 35_009, KGE: 0.084
+   run_rand_id: 38_001, KGE: 0.134
+   run_rand_id: 00_004, KGE: -0.367
+   run_rand_id: 00_050, KGE: -0.129
+   run_rand_id: 02_006, KGE: -0.687
+   run_rand_id: 05_005, KGE: -0.141
+   run_rand_id: 08_002, KGE: -0.416
+   run_rand_id: 11_005, KGE: -0.144
+   run_rand_id: 14_003, KGE: 0.040
+   run_rand_id: 17_007, KGE: -0.013
+   run_rand_id: 20_010, KGE: -0.049
+   run_rand_id: 23_015, KGE: 0.023
+   run_rand_id: 26_006, KGE: 0.023
+   run_rand_id: 29_012, KGE: 0.083
+   run_rand_id: 32_007, KGE: 0.066
+   run_rand_id: 35_001, KGE: 0.112
+   run_rand_id: 38_002, KGE: 0.127
+   run_rand_id: 00_040, KGE: -0.487
+   run_rand_id: 00_081, KGE: -0.604
+   run_rand_id: 02_012, KGE: -0.263
+   run_rand_id: 05_016, KGE: -0.056
+   run_rand_id: 08_006, KGE: -0.211
+   run_rand_id: 11_004, KGE: -0.215
+   run_rand_id: 14_011, KGE: -0.083
+   run_rand_id: 17_009, KGE: -0.011
+   run_rand_id: 20_016, KGE: 0.059
+   run_rand_id: 23_014, KGE: -0.003
+   run_rand_id: 26_010, KGE: 0.076
+   run_rand_id: 29_003, KGE: 0.121
+   run_rand_id: 32_016, KGE: 0.126
+   run_rand_id: 35_012, KGE: 0.109
+   run_rand_id: 38_009, KGE: 0.120
+   run_rand_id: 00_015, KGE: -0.537
+   run_rand_id: 00_065, KGE: -0.224
+   run_rand_id: 02_016, KGE: -0.158
+   run_rand_id: 05_010, KGE: -0.265
+   run_rand_id: 08_014, KGE: -0.133
+   run_rand_id: 11_001, KGE: -0.164
+   run_rand_id: 14_001, KGE: -0.082
+   run_rand_id: 17_013, KGE: -0.083
+   run_rand_id: 20_007, KGE: 0.041
+   run_rand_id: 23_010, KGE: -0.076
+   run_rand_id: 26_001, KGE: 0.002
+   run_rand_id: 29_013, KGE: 0.040
+   run_rand_id: 32_009, KGE: 0.102
+   run_rand_id: 35_005, KGE: 0.094
+   run_rand_id: 38_010, KGE: 0.115
+   run_rand_id: 00_010, KGE: -0.091
+   run_rand_id: 00_058, KGE: -0.482
+   run_rand_id: 02_013, KGE: -0.542
+   run_rand_id: 05_015, KGE: -0.139
+   run_rand_id: 08_007, KGE: -0.065
+   run_rand_id: 11_008, KGE: -0.105
+   run_rand_id: 14_004, KGE: -0.102
+   run_rand_id: 17_005, KGE: -0.121
+   run_rand_id: 20_005, KGE: 0.010
+   run_rand_id: 23_005, KGE: 0.008
+   run_rand_id: 26_012, KGE: 0.039
+   run_rand_id: 29_002, KGE: 0.132
+   run_rand_id: 32_010, KGE: 0.131
+   run_rand_id: 35_014, KGE: 0.102
+   run_rand_id: 38_007, KGE: 0.098
+   run_rand_id: 00_012, KGE: -0.297
+   run_rand_id: 00_053, KGE: -0.342
+   run_rand_id: 02_001, KGE: -0.294
+   run_rand_id: 05_014, KGE: -0.122
+   run_rand_id: 08_010, KGE: 0.001
+   run_rand_id: 11_016, KGE: -0.113
+   run_rand_id: 14_013, KGE: -0.095
+   run_rand_id: 17_016, KGE: -0.122
+   run_rand_id: 20_009, KGE: -0.054
+   run_rand_id: 23_004, KGE: 0.011
+   run_rand_id: 26_003, KGE: 0.096
+   run_rand_id: 29_004, KGE: 0.075
+   run_rand_id: 32_011, KGE: 0.081
+   run_rand_id: 35_003, KGE: 0.133
+   run_rand_id: 38_016, KGE: 0.122
+   run_rand_id: 00_021, KGE: -0.258
+   run_rand_id: 00_056, KGE: -0.557
+   run_rand_id: 02_011, KGE: 0.127
+   run_rand_id: 05_012, KGE: -0.302
+   run_rand_id: 08_015, KGE: -0.118
+   run_rand_id: 11_011, KGE: -0.165
+   run_rand_id: 14_016, KGE: -0.021
+   run_rand_id: 17_004, KGE: -0.068
+   run_rand_id: 20_012, KGE: -0.002
+   run_rand_id: 23_009, KGE: 0.062
+   run_rand_id: 26_014, KGE: 0.035
+   run_rand_id: 29_005, KGE: 0.044
+   run_rand_id: 32_005, KGE: 0.125
+   run_rand_id: 35_007, KGE: 0.120
+   run_rand_id: 38_013, KGE: 0.114
+   run_rand_id: 00_016, KGE: -0.219
+   run_rand_id: 00_057, KGE: -0.257
+   run_rand_id: 02_014, KGE: -0.550
+   run_rand_id: 05_006, KGE: 0.018
+   run_rand_id: 08_016, KGE: -0.026
+   run_rand_id: 11_014, KGE: -0.098
+   run_rand_id: 14_009, KGE: -0.071
+   run_rand_id: 17_001, KGE: -0.082
+   run_rand_id: 20_004, KGE: -0.021
+   run_rand_id: 23_008, KGE: -0.033
+   run_rand_id: 26_009, KGE: 0.095
+   run_rand_id: 29_006, KGE: 0.074
+   run_rand_id: 32_008, KGE: 0.080
+   run_rand_id: 35_011, KGE: 0.145
+   run_rand_id: 38_008, KGE: 0.124
+   run_rand_id: 00_009, KGE: -0.181
+   run_rand_id: 00_092, KGE: -0.366
+   run_rand_id: 02_005, KGE: -0.161
+   run_rand_id: 05_011, KGE: -0.229
+   run_rand_id: 08_011, KGE: -0.327
+   run_rand_id: 11_003, KGE: -0.067
+   run_rand_id: 14_006, KGE: 0.088
+   run_rand_id: 17_012, KGE: -0.051
+   run_rand_id: 20_011, KGE: 0.000
+   run_rand_id: 23_006, KGE: -0.115
+   run_rand_id: 26_013, KGE: 0.171
+   run_rand_id: 29_007, KGE: 0.065
+   run_rand_id: 32_013, KGE: 0.114
+   run_rand_id: 35_010, KGE: 0.102
+   run_rand_id: 38_004, KGE: 0.138
+   run_rand_id: 00_048, KGE: -0.411
+   run_rand_id: 00_068, KGE: -0.099
+   run_rand_id: 02_010, KGE: -0.103
+   run_rand_id: 05_008, KGE: -0.079
+   run_rand_id: 08_012, KGE: -0.285
+   run_rand_id: 11_009, KGE: -0.105
+   run_rand_id: 14_012, KGE: -0.132
+   run_rand_id: 17_003, KGE: -0.034
+   run_rand_id: 20_006, KGE: -0.041
+   run_rand_id: 23_003, KGE: 0.059
+   run_rand_id: 26_015, KGE: 0.097
+   run_rand_id: 29_001, KGE: 0.099
+   run_rand_id: 32_006, KGE: 0.109
+   run_rand_id: 35_015, KGE: 0.163
+   run_rand_id: 38_005, KGE: 0.140
+   run_rand_id: 00_008, KGE: 0.073
+   run_rand_id: 00_094, KGE: -0.785
+   run_rand_id: 02_004, KGE: -0.412
+   run_rand_id: 05_009, KGE: -0.174
+   run_rand_id: 08_005, KGE: -0.162
+   run_rand_id: 11_007, KGE: -0.082
+   run_rand_id: 14_010, KGE: -0.035
+   run_rand_id: 17_010, KGE: -0.062
+   run_rand_id: 20_002, KGE: -0.062
+   run_rand_id: 23_007, KGE: -0.014
+   run_rand_id: 26_004, KGE: -0.134
+   run_rand_id: 29_011, KGE: -0.055
+   run_rand_id: 32_012, KGE: 0.096
+   run_rand_id: 35_002, KGE: 0.115
+   run_rand_id: 38_014, KGE: 0.127
+   run_rand_id: 00_037, KGE: -0.265
+   run_rand_id: 00_055, KGE: -1.001
+   run_rand_id: 02_007, KGE: -0.077
+   run_rand_id: 05_001, KGE: -0.342
+   run_rand_id: 08_008, KGE: -0.120
+   run_rand_id: 11_010, KGE: -0.112
+   run_rand_id: 14_008, KGE: -0.075
+   run_rand_id: 17_006, KGE: -0.071
+   run_rand_id: 20_015, KGE: 0.052
+   run_rand_id: 23_012, KGE: 0.125
+   run_rand_id: 26_002, KGE: 0.133
+   run_rand_id: 29_015, KGE: -0.033
+   run_rand_id: 32_014, KGE: 0.102
+   run_rand_id: 35_006, KGE: 0.119
+   run_rand_id: 38_003, KGE: 0.124
+   run_rand_id: 00_046, KGE: -0.593
+   run_rand_id: 00_078, KGE: -0.425
+   run_rand_id: 02_008, KGE: -0.335
+   run_rand_id: 05_007, KGE: -0.033
+   run_rand_id: 08_013, KGE: -0.065
+   run_rand_id: 11_006, KGE: -0.034
+   run_rand_id: 14_002, KGE: -0.086
+   run_rand_id: 17_011, KGE: 0.052
+   run_rand_id: 20_014, KGE: -0.013
+   run_rand_id: 23_013, KGE: 0.060
+   run_rand_id: 26_005, KGE: 0.038
+   run_rand_id: 29_010, KGE: 0.114
+   run_rand_id: 32_002, KGE: 0.096
+   run_rand_id: 35_016, KGE: 0.086
+   run_rand_id: 38_006, KGE: 0.110
+   run_rand_id: 00_011, KGE: -0.035
+   run_rand_id: 00_062, KGE: -0.404
+   run_rand_id: 02_003, KGE: -0.285
+   run_rand_id: 05_013, KGE: -0.197
+   run_rand_id: 08_004, KGE: -0.058
+   run_rand_id: 11_012, KGE: -0.119
+   run_rand_id: 14_014, KGE: -0.078
+   run_rand_id: 17_015, KGE: -0.040
+   run_rand_id: 20_013, KGE: -0.051
+   run_rand_id: 23_001, KGE: 0.035
+   run_rand_id: 26_008, KGE: 0.042
+   run_rand_id: 29_008, KGE: 0.072
+   run_rand_id: 32_015, KGE: 0.083
+   run_rand_id: 35_013, KGE: 0.119
+   run_rand_id: 38_011, KGE: 0.120
+   run_rand_id: 00_035, KGE: -0.181
+   run_rand_id: 00_064, KGE: -0.531
+   run_rand_id: 02_002, KGE: -0.385
+   run_rand_id: 05_003, KGE: -0.287
+   run_rand_id: 08_003, KGE: 0.024
+   run_rand_id: 11_015, KGE: -0.081
+   run_rand_id: 14_007, KGE: -0.064
+   run_rand_id: 17_002, KGE: -0.035
+   run_rand_id: 20_003, KGE: 0.120
+   run_rand_id: 23_011, KGE: 0.020
+   run_rand_id: 26_016, KGE: 0.022
+   run_rand_id: 29_014, KGE: 0.114
+   run_rand_id: 32_001, KGE: 0.069
+   run_rand_id: 35_004, KGE: 0.130
+   run_rand_id: 38_015, KGE: 0.113
+   run_rand_id: 00_044, KGE: -0.056
+   run_rand_id: 00_076, KGE: -0.146
+   run_rand_id: 02_015, KGE: -0.414
+   run_rand_id: 05_002, KGE: -0.183
+   run_rand_id: 08_009, KGE: -0.091
+   run_rand_id: 11_002, KGE: -0.085
+   run_rand_id: 14_005, KGE: -0.092
+   run_rand_id: 17_008, KGE: 0.085
+   run_rand_id: 20_001, KGE: 0.066
+   run_rand_id: 23_002, KGE: -0.080
+   run_rand_id: 26_011, KGE: 0.075
+   run_rand_id: 29_009, KGE: 0.084
+   run_rand_id: 32_004, KGE: 0.116
+   run_rand_id: 35_008, KGE: 0.087
+   run_rand_id: 38_012, KGE: 0.136
+   run_rand_id: 00_047, KGE: -0.028
+   run_rand_id: 00_061, KGE: -0.556
+   run_rand_id: 03_010, KGE: -0.470
+   run_rand_id: 06_002, KGE: -0.014
+   run_rand_id: 09_014, KGE: -0.166
+   run_rand_id: 12_015, KGE: -0.124
+   run_rand_id: 15_006, KGE: -0.059
+   run_rand_id: 18_006, KGE: -0.061
+   run_rand_id: 21_010, KGE: -0.024
+   run_rand_id: 24_004, KGE: 0.037
+   run_rand_id: 27_001, KGE: 0.048
+   run_rand_id: 30_009, KGE: 0.114
+   run_rand_id: 33_001, KGE: 0.106
+   run_rand_id: 36_011, KGE: 0.116
+   run_rand_id: 39_001, KGE: 0.117
+   run_rand_id: 00_031, KGE: -0.216
+   run_rand_id: 00_052, KGE: -0.593
+   run_rand_id: 03_004, KGE: -0.031
+   run_rand_id: 06_016, KGE: -0.167
+   run_rand_id: 09_008, KGE: -0.098
+   run_rand_id: 12_001, KGE: 0.032
+   run_rand_id: 15_008, KGE: -0.014
+   run_rand_id: 18_004, KGE: -0.086
+   run_rand_id: 21_014, KGE: 0.003
+   run_rand_id: 24_006, KGE: 0.119
+   run_rand_id: 27_013, KGE: 0.081
+   run_rand_id: 30_014, KGE: 0.097
+   run_rand_id: 33_016, KGE: 0.109
+   run_rand_id: 36_008, KGE: 0.132
+   run_rand_id: 39_004, KGE: 0.131
+   run_rand_id: 00_019, KGE: -0.218
+   run_rand_id: 00_093, KGE: 0.004
+   run_rand_id: 03_008, KGE: -0.365
+   run_rand_id: 06_010, KGE: -0.079
+   run_rand_id: 09_016, KGE: -0.033
+   run_rand_id: 12_003, KGE: -0.159
+   run_rand_id: 15_004, KGE: 0.018
+   run_rand_id: 18_007, KGE: -0.049
+   run_rand_id: 21_012, KGE: 0.022
+   run_rand_id: 24_012, KGE: 0.108
+   run_rand_id: 27_005, KGE: 0.123
+   run_rand_id: 30_002, KGE: 0.148
+   run_rand_id: 33_004, KGE: 0.083
+   run_rand_id: 36_009, KGE: 0.116
+   run_rand_id: 39_011, KGE: 0.155
+   run_rand_id: 00_005, KGE: -0.415
+   run_rand_id: 00_095, KGE: -0.419
+   run_rand_id: 03_001, KGE: -0.210
+   run_rand_id: 06_013, KGE: -0.236
+   run_rand_id: 09_002, KGE: -0.133
+   run_rand_id: 12_011, KGE: -0.129
+   run_rand_id: 15_005, KGE: -0.095
+   run_rand_id: 18_011, KGE: -0.034
+   run_rand_id: 21_011, KGE: -0.038
+   run_rand_id: 24_002, KGE: 0.135
+   run_rand_id: 27_006, KGE: 0.053
+   run_rand_id: 30_013, KGE: 0.100
+   run_rand_id: 33_006, KGE: 0.115
+   run_rand_id: 36_010, KGE: 0.126
+   run_rand_id: 39_010, KGE: 0.131
+   run_rand_id: 00_002, KGE: -0.194
+   run_rand_id: 00_070, KGE: -0.067
+   run_rand_id: 03_006, KGE: -0.475
+   run_rand_id: 06_003, KGE: -0.145
+   run_rand_id: 09_001, KGE: -0.093
+   run_rand_id: 12_009, KGE: -0.092
+   run_rand_id: 15_016, KGE: -0.059
+   run_rand_id: 18_001, KGE: 0.034
+   run_rand_id: 21_005, KGE: -0.040
+   run_rand_id: 24_010, KGE: 0.064
+   run_rand_id: 27_010, KGE: 0.006
+   run_rand_id: 30_008, KGE: 0.095
+   run_rand_id: 33_008, KGE: 0.091
+   run_rand_id: 36_013, KGE: 0.147
+   run_rand_id: 39_002, KGE: 0.129
+   run_rand_id: 00_027, KGE: -0.315
+   run_rand_id: 00_088, KGE: -0.352
+   run_rand_id: 03_009, KGE: -0.459
+   run_rand_id: 06_001, KGE: -0.187
+   run_rand_id: 09_013, KGE: 0.045
+   run_rand_id: 12_008, KGE: -0.117
+   run_rand_id: 15_007, KGE: -0.079
+   run_rand_id: 18_008, KGE: -0.035
+   run_rand_id: 21_016, KGE: -0.168
+   run_rand_id: 24_005, KGE: -0.001
+   run_rand_id: 27_015, KGE: 0.087
+   run_rand_id: 30_015, KGE: 0.079
+   run_rand_id: 33_005, KGE: 0.140
+   run_rand_id: 36_014, KGE: 0.112
+   run_rand_id: 39_016, KGE: 0.133
+   run_rand_id: 00_039, KGE: -0.255
+   run_rand_id: 00_059, KGE: -0.491
+   run_rand_id: 03_003, KGE: -0.362
+   run_rand_id: 06_014, KGE: -0.082
+   run_rand_id: 09_015, KGE: 0.016
+   run_rand_id: 12_010, KGE: -0.179
+   run_rand_id: 15_010, KGE: -0.104
+   run_rand_id: 18_015, KGE: 0.046
+   run_rand_id: 21_001, KGE: -0.042
+   run_rand_id: 24_016, KGE: 0.039
+   run_rand_id: 27_007, KGE: 0.080
+   run_rand_id: 30_016, KGE: 0.133
+   run_rand_id: 33_003, KGE: 0.142
+   run_rand_id: 36_007, KGE: 0.131
+   run_rand_id: 39_007, KGE: 0.129
+   run_rand_id: 00_024, KGE: -0.437
+   run_rand_id: 00_075, KGE: -0.726
+   run_rand_id: 00_099, KGE: -0.201
+   run_rand_id: 03_013, KGE: -0.330
+   run_rand_id: 06_006, KGE: -0.252
+   run_rand_id: 09_003, KGE: -0.034
+   run_rand_id: 12_005, KGE: -0.106
+   run_rand_id: 15_002, KGE: -0.050
+   run_rand_id: 18_009, KGE: 0.062
+   run_rand_id: 21_008, KGE: 0.118
+   run_rand_id: 24_011, KGE: 0.020
+   run_rand_id: 27_016, KGE: 0.073
+   run_rand_id: 30_011, KGE: 0.116
+   run_rand_id: 33_014, KGE: 0.124
+   run_rand_id: 36_006, KGE: 0.127
+   run_rand_id: 39_014, KGE: 0.115
+   run_rand_id: 00_003, KGE: -0.286
+   run_rand_id: 00_087, KGE: -0.449
+   run_rand_id: 00_100, KGE: -0.236
+   run_rand_id: 03_015, KGE: -0.108
+   run_rand_id: 06_015, KGE: -0.091
+   run_rand_id: 09_009, KGE: -0.076
+   run_rand_id: 12_013, KGE: -0.043
+   run_rand_id: 15_003, KGE: 0.065
+   run_rand_id: 18_010, KGE: 0.109
+   run_rand_id: 21_013, KGE: 0.016
+   run_rand_id: 24_009, KGE: -0.017
+   run_rand_id: 27_004, KGE: 0.145
+   run_rand_id: 30_005, KGE: 0.110
+   run_rand_id: 33_012, KGE: 0.135
+   run_rand_id: 36_015, KGE: 0.155
+   run_rand_id: 39_003, KGE: 0.118
+   run_rand_id: 00_022, KGE: -0.352
+   run_rand_id: 00_079, KGE: -0.381
+   run_rand_id: 03_012, KGE: -0.275
+   run_rand_id: 06_009, KGE: -0.111
+   run_rand_id: 09_004, KGE: -0.150
+   run_rand_id: 12_014, KGE: -0.005
+   run_rand_id: 15_001, KGE: -0.021
+   run_rand_id: 18_012, KGE: -0.064
+   run_rand_id: 21_009, KGE: 0.058
+   run_rand_id: 24_007, KGE: 0.048
+   run_rand_id: 27_002, KGE: 0.118
+   run_rand_id: 30_004, KGE: 0.090
+   run_rand_id: 33_013, KGE: 0.123
+   run_rand_id: 36_016, KGE: 0.153
+   run_rand_id: 39_015, KGE: 0.141
+   run_rand_id: 00_034, KGE: -0.643
+   run_rand_id: 00_051, KGE: -0.308
+   run_rand_id: 00_097, KGE: -0.236
+   run_rand_id: 03_016, KGE: -0.234
+   run_rand_id: 06_012, KGE: -0.137
+   run_rand_id: 09_007, KGE: -0.107
+   run_rand_id: 12_002, KGE: -0.053
+   run_rand_id: 15_012, KGE: -0.065
+   run_rand_id: 18_016, KGE: -0.042
+   run_rand_id: 21_002, KGE: 0.015
+   run_rand_id: 24_013, KGE: 0.109
+   run_rand_id: 27_008, KGE: 0.011
+   run_rand_id: 30_007, KGE: 0.112
+   run_rand_id: 33_009, KGE: 0.124
+   run_rand_id: 36_001, KGE: 0.117
+   run_rand_id: 39_013, KGE: 0.134
+   run_rand_id: 00_041, KGE: -0.535
+   run_rand_id: 00_090, KGE: -0.932
+   run_rand_id: 03_002, KGE: -0.365
+   run_rand_id: 06_008, KGE: -0.051
+   run_rand_id: 09_011, KGE: -0.120
+   run_rand_id: 12_016, KGE: -0.122
+   run_rand_id: 15_014, KGE: -0.269
+   run_rand_id: 18_003, KGE: -0.033
+   run_rand_id: 21_003, KGE: 0.082
+   run_rand_id: 24_015, KGE: 0.064
+   run_rand_id: 27_012, KGE: 0.034
+   run_rand_id: 30_001, KGE: 0.114
+   run_rand_id: 33_007, KGE: 0.117
+   run_rand_id: 36_003, KGE: 0.078
+   run_rand_id: 39_008, KGE: 0.130
+   run_rand_id: 00_013, KGE: -1.311
+   run_rand_id: 00_060, KGE: -0.176
+   run_rand_id: 03_005, KGE: -0.119
+   run_rand_id: 06_011, KGE: -0.161
+   run_rand_id: 09_006, KGE: -0.067
+   run_rand_id: 12_012, KGE: -0.121
+   run_rand_id: 15_015, KGE: -0.029
+   run_rand_id: 18_005, KGE: -0.085
+   run_rand_id: 21_015, KGE: 0.006
+   run_rand_id: 24_008, KGE: 0.013
+   run_rand_id: 27_009, KGE: 0.038
+   run_rand_id: 30_010, KGE: 0.090
+   run_rand_id: 33_015, KGE: 0.108
+   run_rand_id: 36_002, KGE: 0.141
+   run_rand_id: 39_006, KGE: 0.115
+   run_rand_id: 00_032, KGE: -0.124
+   run_rand_id: 00_096, KGE: -0.147
+   run_rand_id: 00_098, KGE: -0.060
+   run_rand_id: 03_014, KGE: -0.134
+   run_rand_id: 06_007, KGE: -0.174
+   run_rand_id: 09_012, KGE: -0.198
+   run_rand_id: 12_007, KGE: -0.064
+   run_rand_id: 15_013, KGE: -0.057
+   run_rand_id: 18_002, KGE: -0.031
+   run_rand_id: 21_007, KGE: -0.016
+   run_rand_id: 24_001, KGE: -0.016
+   run_rand_id: 27_014, KGE: 0.011
+   run_rand_id: 30_006, KGE: 0.093
+   run_rand_id: 33_002, KGE: 0.113
+   run_rand_id: 36_012, KGE: 0.123
+   run_rand_id: 39_012, KGE: 0.111
+   run_rand_id: 00_043, KGE: -0.553
+   run_rand_id: 00_067, KGE: -0.367
+   run_rand_id: 03_011, KGE: -0.120
+   run_rand_id: 06_005, KGE: -0.261
+   run_rand_id: 09_005, KGE: -0.179
+   run_rand_id: 12_004, KGE: -0.164
+   run_rand_id: 15_009, KGE: -0.087
+   run_rand_id: 18_013, KGE: -0.052
+   run_rand_id: 21_004, KGE: 0.003
+   run_rand_id: 24_014, KGE: -0.025
+   run_rand_id: 27_003, KGE: 0.005
+   run_rand_id: 30_003, KGE: 0.056
+   run_rand_id: 33_011, KGE: 0.104
+   run_rand_id: 36_004, KGE: 0.138
+   run_rand_id: 39_005, KGE: 0.188
+   run_rand_id: 00_006, KGE: -1.339
+   run_rand_id: 00_089, KGE: -0.553
+   run_rand_id: 01_003, KGE: -0.066
+   run_rand_id: 04_002, KGE: -0.238
+   run_rand_id: 07_016, KGE: -0.071
+   run_rand_id: 10_004, KGE: -0.044
+   run_rand_id: 13_011, KGE: -0.063
+   run_rand_id: 16_003, KGE: -0.057
+   run_rand_id: 19_010, KGE: -0.049
+   run_rand_id: 22_003, KGE: 0.110
+   run_rand_id: 25_002, KGE: 0.052
+   run_rand_id: 28_013, KGE: 0.042
+   run_rand_id: 31_012, KGE: 0.093
+   run_rand_id: 34_001, KGE: 0.127
+   run_rand_id: 37_005, KGE: 0.149
+   run_rand_id: 40_001, KGE: 0.139
+   run_rand_id: 00_014, KGE: -0.940
+   run_rand_id: 00_063, KGE: -0.106
+   run_rand_id: 01_009, KGE: -0.099
+   run_rand_id: 04_013, KGE: -0.323
+   run_rand_id: 07_009, KGE: -0.245
+   run_rand_id: 10_001, KGE: -0.060
+   run_rand_id: 13_006, KGE: -0.101
+   run_rand_id: 16_001, KGE: -0.055
+   run_rand_id: 19_013, KGE: -0.050
+   run_rand_id: 22_014, KGE: 0.001
+   run_rand_id: 25_006, KGE: 0.136
+   run_rand_id: 28_011, KGE: 0.003
+   run_rand_id: 31_015, KGE: 0.102
+   run_rand_id: 34_002, KGE: 0.119
+   run_rand_id: 37_008, KGE: 0.110
+   run_rand_id: 40_016, KGE: 0.124
+   run_rand_id: 00_042, KGE: -0.279
+   run_rand_id: 00_086, KGE: -0.345
+   run_rand_id: 01_016, KGE: -0.233
+   run_rand_id: 04_010, KGE: -0.247
+   run_rand_id: 07_007, KGE: -0.058
+   run_rand_id: 10_012, KGE: -0.181
+   run_rand_id: 13_004, KGE: -0.096
+   run_rand_id: 16_016, KGE: -0.016
+   run_rand_id: 19_011, KGE: -0.061
+   run_rand_id: 22_015, KGE: -0.165
+   run_rand_id: 25_009, KGE: 0.038
+   run_rand_id: 28_008, KGE: 0.114
+   run_rand_id: 31_005, KGE: 0.099
+   run_rand_id: 34_010, KGE: 0.094
+   run_rand_id: 37_016, KGE: 0.132
+   run_rand_id: 40_006, KGE: 0.167
+   run_rand_id: 00_038, KGE: -0.376
+   run_rand_id: 00_084, KGE: -0.310
+   run_rand_id: 01_014, KGE: -0.143
+   run_rand_id: 04_012, KGE: -0.266
+   run_rand_id: 07_015, KGE: -0.122
+   run_rand_id: 10_002, KGE: -0.096
+   run_rand_id: 13_005, KGE: -0.032
+   run_rand_id: 16_013, KGE: -0.088
+   run_rand_id: 19_003, KGE: -0.054
+   run_rand_id: 22_013, KGE: 0.099
+   run_rand_id: 25_004, KGE: -0.004
+   run_rand_id: 28_003, KGE: 0.071
+   run_rand_id: 31_011, KGE: 0.116
+   run_rand_id: 34_005, KGE: 0.117
+   run_rand_id: 37_002, KGE: 0.119
+   run_rand_id: 40_008, KGE: 0.130
+   run_rand_id: 00_023, KGE: -0.255
+   run_rand_id: 00_082, KGE: 0.067
+   run_rand_id: 01_007, KGE: -0.472
+   run_rand_id: 04_008, KGE: -0.247
+   run_rand_id: 07_012, KGE: -0.176
+   run_rand_id: 10_008, KGE: -0.225
+   run_rand_id: 13_012, KGE: -0.084
+   run_rand_id: 16_015, KGE: -0.201
+   run_rand_id: 19_009, KGE: 0.096
+   run_rand_id: 22_009, KGE: 0.041
+   run_rand_id: 25_010, KGE: 0.074
+   run_rand_id: 28_005, KGE: 0.086
+   run_rand_id: 31_014, KGE: 0.123
+   run_rand_id: 34_015, KGE: 0.107
+   run_rand_id: 37_013, KGE: 0.131
+   run_rand_id: 40_005, KGE: 0.126
+   run_rand_id: 00_017, KGE: -0.187
+   run_rand_id: 00_083, KGE: -0.225
+   run_rand_id: 03_007, KGE: -0.227
+   run_rand_id: 06_004, KGE: -0.233
+   run_rand_id: 09_010, KGE: -0.073
+   run_rand_id: 12_006, KGE: -0.084
+   run_rand_id: 15_011, KGE: 0.048
+   run_rand_id: 18_014, KGE: -0.044
+   run_rand_id: 21_006, KGE: 0.090
+   run_rand_id: 24_003, KGE: 0.080
+   run_rand_id: 27_011, KGE: 0.031
+   run_rand_id: 30_012, KGE: 0.055
+   run_rand_id: 33_010, KGE: 0.114
+   run_rand_id: 36_005, KGE: 0.116
+   run_rand_id: 39_009, KGE: 0.174
+   run_rand_id: 00_029, KGE: -0.348
+   run_rand_id: 00_049, KGE: -0.164
+   run_rand_id: 01_002, KGE: -0.098
+   run_rand_id: 04_006, KGE: -0.132
+   run_rand_id: 07_010, KGE: -0.206
+   run_rand_id: 10_007, KGE: -0.178
+   run_rand_id: 13_015, KGE: -0.198
+   run_rand_id: 16_005, KGE: -0.064
+   run_rand_id: 19_007, KGE: -0.060
+   run_rand_id: 22_010, KGE: 0.014
+   run_rand_id: 25_005, KGE: 0.029
+   run_rand_id: 28_016, KGE: 0.025
+   run_rand_id: 31_016, KGE: 0.092
+   run_rand_id: 34_012, KGE: 0.126
+   run_rand_id: 37_003, KGE: 0.145
+   run_rand_id: 40_011, KGE: 0.119
+   run_rand_id: 00_030, KGE: -0.338
+   run_rand_id: 00_091, KGE: 0.109
+   run_rand_id: 01_006, KGE: -0.187
+   run_rand_id: 04_003, KGE: -0.119
+   run_rand_id: 07_002, KGE: -0.309
+   run_rand_id: 10_013, KGE: -0.037
+   run_rand_id: 13_014, KGE: -0.092
+   run_rand_id: 16_009, KGE: -0.115
+   run_rand_id: 19_004, KGE: 0.019
+   run_rand_id: 22_004, KGE: -0.023
+   run_rand_id: 25_013, KGE: 0.048
+   run_rand_id: 28_002, KGE: 0.081
+   run_rand_id: 31_004, KGE: 0.101
+   run_rand_id: 34_011, KGE: 0.085
+   run_rand_id: 37_011, KGE: 0.120
+   run_rand_id: 40_014, KGE: 0.122
+   run_rand_id: 00_033, KGE: -0.484
+   run_rand_id: 00_071, KGE: -0.160
+   run_rand_id: 01_001, KGE: -0.320
+   run_rand_id: 04_009, KGE: -0.413
+   run_rand_id: 07_004, KGE: -0.138
+   run_rand_id: 10_005, KGE: -0.047
+   run_rand_id: 13_002, KGE: -0.087
+   run_rand_id: 16_004, KGE: -0.136
+   run_rand_id: 19_008, KGE: -0.014
+   run_rand_id: 22_011, KGE: 0.138
+   run_rand_id: 25_015, KGE: 0.024
+   run_rand_id: 28_010, KGE: 0.099
+   run_rand_id: 31_007, KGE: 0.066
+   run_rand_id: 34_014, KGE: 0.111
+   run_rand_id: 37_007, KGE: 0.126
+   run_rand_id: 40_015, KGE: 0.133
+   run_rand_id: 00_020, KGE: -0.063
+   run_rand_id: 00_073, KGE: -0.663
+   run_rand_id: 01_013, KGE: -0.434
+   run_rand_id: 04_011, KGE: -0.249
+   run_rand_id: 07_008, KGE: -0.177
+   run_rand_id: 10_011, KGE: 0.011
+   run_rand_id: 13_009, KGE: -0.051
+   run_rand_id: 16_007, KGE: -0.082
+   run_rand_id: 19_015, KGE: 0.092
+   run_rand_id: 22_005, KGE: 0.066
+   run_rand_id: 25_001, KGE: 0.019
+   run_rand_id: 28_015, KGE: 0.059
+   run_rand_id: 31_008, KGE: 0.071
+   run_rand_id: 34_007, KGE: 0.124
+   run_rand_id: 37_006, KGE: 0.066
+   run_rand_id: 40_013, KGE: 0.123
+   run_rand_id: 00_025, KGE: -0.459
+   run_rand_id: 00_080, KGE: -0.458
+   run_rand_id: 01_004, KGE: -0.119
+   run_rand_id: 04_015, KGE: -0.211
+   run_rand_id: 07_014, KGE: -0.052
+   run_rand_id: 10_014, KGE: -0.121
+   run_rand_id: 13_007, KGE: -0.073
+   run_rand_id: 16_014, KGE: 0.134
+   run_rand_id: 19_002, KGE: 0.005
+   run_rand_id: 22_007, KGE: 0.096
+   run_rand_id: 25_008, KGE: 0.118
+   run_rand_id: 28_004, KGE: -0.005
+   run_rand_id: 31_003, KGE: 0.113
+   run_rand_id: 34_006, KGE: 0.118
+   run_rand_id: 37_001, KGE: 0.102
+   run_rand_id: 40_002, KGE: 0.113
+   run_rand_id: 00_018, KGE: -0.655
+   run_rand_id: 00_054, KGE: 0.041
+   run_rand_id: 01_010, KGE: -0.455
+   run_rand_id: 04_005, KGE: -0.305
+   run_rand_id: 07_005, KGE: -0.127
+   run_rand_id: 10_016, KGE: -0.111
+   run_rand_id: 13_003, KGE: -0.019
+   run_rand_id: 16_011, KGE: -0.046
+   run_rand_id: 19_006, KGE: 0.085
+   run_rand_id: 22_002, KGE: 0.132
+   run_rand_id: 25_016, KGE: 0.014
+   run_rand_id: 28_012, KGE: 0.090
+   run_rand_id: 31_002, KGE: 0.074
+   run_rand_id: 34_004, KGE: 0.154
+   run_rand_id: 37_014, KGE: 0.127
+   run_rand_id: 40_004, KGE: 0.101
+   run_rand_id: 00_007, KGE: -0.409
+   run_rand_id: 00_074, KGE: -0.466
+   run_rand_id: 01_005, KGE: -0.980
+   run_rand_id: 04_007, KGE: -0.344
+   run_rand_id: 07_003, KGE: -0.160
+   run_rand_id: 10_010, KGE: -0.169
+   run_rand_id: 13_008, KGE: -0.071
+   run_rand_id: 16_010, KGE: 0.101
+   run_rand_id: 19_016, KGE: -0.043
+   run_rand_id: 22_006, KGE: 0.109
+   run_rand_id: 25_014, KGE: 0.019
+   run_rand_id: 28_007, KGE: 0.124
+   run_rand_id: 31_013, KGE: 0.078
+   run_rand_id: 34_008, KGE: 0.118
+   run_rand_id: 37_015, KGE: 0.125
+   run_rand_id: 40_012, KGE: 0.122
+   run_rand_id: 00_036, KGE: -0.309
+   run_rand_id: 00_072, KGE: -0.472
+   run_rand_id: 01_011, KGE: -0.005
+   run_rand_id: 04_001, KGE: -0.166
+   run_rand_id: 07_011, KGE: -0.109
+   run_rand_id: 10_015, KGE: -0.115
+   run_rand_id: 13_016, KGE: 0.046
+   run_rand_id: 16_002, KGE: -0.038
+   run_rand_id: 19_014, KGE: 0.183
+   run_rand_id: 22_008, KGE: 0.021
+   run_rand_id: 25_003, KGE: 0.070
+   run_rand_id: 28_009, KGE: -0.046
+   run_rand_id: 31_001, KGE: 0.078
+   run_rand_id: 34_003, KGE: 0.104
+   run_rand_id: 37_004, KGE: 0.122
+   run_rand_id: 40_003, KGE: 0.118
+   run_rand_id: 00_045, KGE: -0.927
+   run_rand_id: 00_069, KGE: -1.011
+   run_rand_id: 01_012, KGE: -0.497
+   run_rand_id: 04_016, KGE: -0.262
+   run_rand_id: 07_013, KGE: -0.043
+   run_rand_id: 10_006, KGE: -0.128
+   run_rand_id: 13_001, KGE: -0.113
+   run_rand_id: 16_006, KGE: -0.062
+   run_rand_id: 19_001, KGE: -0.084
+   run_rand_id: 22_001, KGE: -0.008
+   run_rand_id: 25_007, KGE: 0.059
+   run_rand_id: 28_006, KGE: 0.046
+   run_rand_id: 31_010, KGE: 0.095
+   run_rand_id: 34_009, KGE: -0.119
+   run_rand_id: 37_010, KGE: 0.125
+   run_rand_id: 40_009, KGE: 0.129
+   run_rand_id: 00_028, KGE: -0.659
+   run_rand_id: 00_077, KGE: -0.148
+   run_rand_id: 01_015, KGE: -0.281
+   run_rand_id: 04_014, KGE: -0.396
+   run_rand_id: 07_001, KGE: -0.052
+   run_rand_id: 10_003, KGE: -0.037
+   run_rand_id: 13_010, KGE: -0.045
+   run_rand_id: 16_008, KGE: -0.045
+   run_rand_id: 19_005, KGE: -0.172
+   run_rand_id: 22_012, KGE: -0.030
+   run_rand_id: 25_011, KGE: 0.032
+   run_rand_id: 28_001, KGE: 0.069
+   run_rand_id: 31_009, KGE: 0.125
+   run_rand_id: 34_016, KGE: 0.117
+   run_rand_id: 37_012, KGE: 0.099
+   run_rand_id: 40_007, KGE: 0.133
+   run_rand_id: 00_001, KGE: -0.269
+   run_rand_id: 00_066, KGE: -0.072
+   run_rand_id: 01_008, KGE: -0.268
+   run_rand_id: 04_004, KGE: -0.245
+   run_rand_id: 07_006, KGE: -0.084
+   run_rand_id: 10_009, KGE: -0.109
+   run_rand_id: 13_013, KGE: -0.044
+   run_rand_id: 16_012, KGE: -0.091
+   run_rand_id: 19_012, KGE: 0.114
+   run_rand_id: 22_016, KGE: 0.050
+   run_rand_id: 25_012, KGE: 0.129
+   run_rand_id: 28_014, KGE: 0.067
+   run_rand_id: 31_006, KGE: 0.119
+   run_rand_id: 34_013, KGE: 0.117
+   run_rand_id: 37_009, KGE: 0.118
+   run_rand_id: 40_010, KGE: 0.113
+48
+>> gen: 0, effmax_KGE: 0.109
+>> gen: 1, effmax_KGE: 0.109
+>> gen: 2, effmax_KGE: 0.127
+>> gen: 3, effmax_KGE: 0.127
+>> gen: 4, effmax_KGE: 0.127
+>> gen: 5, effmax_KGE: 0.127
+>> gen: 6, effmax_KGE: 0.127
+>> gen: 7, effmax_KGE: 0.127
+>> gen: 8, effmax_KGE: 0.127
+>> gen: 9, effmax_KGE: 0.127
+>> gen: 10, effmax_KGE: 0.127
+>> gen: 11, effmax_KGE: 0.127
+>> gen: 12, effmax_KGE: 0.127
+>> gen: 13, effmax_KGE: 0.127
+>> gen: 14, effmax_KGE: 0.127
+>> gen: 15, effmax_KGE: 0.127
+>> gen: 16, effmax_KGE: 0.134
+>> gen: 17, effmax_KGE: 0.134
+>> gen: 18, effmax_KGE: 0.134
+>> gen: 19, effmax_KGE: 0.183
+>> gen: 20, effmax_KGE: 0.183
+>> gen: 21, effmax_KGE: 0.183
+>> gen: 22, effmax_KGE: 0.183
+>> gen: 23, effmax_KGE: 0.183
+>> gen: 24, effmax_KGE: 0.183
+>> gen: 25, effmax_KGE: 0.183
+>> gen: 26, effmax_KGE: 0.183
+>> gen: 27, effmax_KGE: 0.183
+>> gen: 28, effmax_KGE: 0.183
+>> gen: 29, effmax_KGE: 0.183
+>> gen: 30, effmax_KGE: 0.183
+>> gen: 31, effmax_KGE: 0.183
+>> gen: 32, effmax_KGE: 0.183
+>> gen: 33, effmax_KGE: 0.183
+>> gen: 34, effmax_KGE: 0.183
+>> gen: 35, effmax_KGE: 0.183
+>> gen: 36, effmax_KGE: 0.183
+>> gen: 37, effmax_KGE: 0.183
+>> gen: 38, effmax_KGE: 0.183
+>> gen: 39, effmax_KGE: 0.188
+>> gen: 40, effmax_KGE: 0.188
+>> Termination criterion ngen fulfilled.
+>> Time elapsed: 40368.33 s
+>> Saving optimization history (front_history.csv)
+>> Saving Pareto optimal solutions (pareto_front.csv)
+>> Running Model using the "best" parameter set
+>> Saving "best" simulated streamflow (streamflow_simulated_best.csv)
+
+********************************************************************************
+*                                                                              *
+*  This is the automated job summary provided by DKRZ.                         *
+*  If you encounter problems, need assistance or have any suggestion, please   *
+*  write an email to                                                           *
+*                                                                              *
+*  --  support@dkrz.de --                                                      *
+*                                                                              *
+*                       We hope you enjoyed the DKRZ supercomputer LEVANTE ... *
+*
+* JobID            : 10788282
+* JobName          : runing_prep                                       
+* Account          : ch0636
+* User             : g300128 (201946), ch0636 (1303)                   
+* Partition        : shared
+* QOS              : normal
+* Nodelist         : l40001 (1)                                                
+* Submit date      : 2024-06-20T10:41:23
+* Start time       : 2024-06-23T01:41:17
+* End time         : 2024-06-23T13:21:57
+* Elapsed time     : 11:40:40 (Timelimit=7-00:00:00)                   
+* Command          : /work/ch0636/g300128/Hydrologie_Calibration/Calibration/
+*                    run_calibration_slurm.sh
+* WorkDir          : /work/ch0636/g300128/Hydrologie_Calibration/Scripts/
+*                    Notebooks
+*
+* StepID | JobName      NodeHours    MaxRSS [Byte] (@task)
+* ------------------------------------------------------------------------------
+* batch  | batch          1.2e+01
+* extern | extern         1.2e+01                2204K (0)
+* ------------------------------------------------------------------------------
+

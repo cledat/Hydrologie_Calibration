@@ -1,0 +1,49 @@
+total 2396
+-rw-r--r-- 1 g300128 ch0636    944 Jul 12 12:29 error-11085609.txt
+-rw-r--r-- 1 g300128 ch0636    944 Jul 13 17:48 error-11085610.txt
+-rw-r--r-- 1 g300128 ch0636    944 Jul 13 12:06 error-11085611.txt
+-rw-r--r-- 1 g300128 ch0636    951 Jul 12 12:29 error-11085612.txt
+-rw-r--r-- 1 g300128 ch0636   1860 Jul 16 02:10 error-11085613.txt
+-rw-r--r-- 1 g300128 ch0636   1860 Jul 16 05:32 error-11085614.txt
+-rw-r--r-- 1 g300128 ch0636    944 Jul 17 09:35 error-11085615.txt
+-rw-r--r-- 1 g300128 ch0636      0 Jul 16 05:32 error-11085616.txt
+-rw-r--r-- 1 g300128 ch0636      0 Jul 17 09:36 error-11085618.txt
+-rw-r--r-- 1 g300128 ch0636   9940 Jul 10 16:23 GRDC_gauged_stations.xlsx
+-rw-r--r-- 1 g300128 ch0636  10905 Jul 10 09:41 hydroStats.py
+-rw-r--r-- 1 g300128 ch0636   6183 Jul 10 09:55 maria_ccwatM.xlsx
+-rw-r--r-- 1 g300128 ch0636   6187 Jul 10 10:10 maria_cwatM.xlsx
+-rw-r--r-- 1 g300128 ch0636 897697 Jul 16 15:35 netcdf_analysing.ipynb
+drwxr-sr-x 2 g300128 ch0636   4096 Jul 10 09:41 __pycache__
+-rw-r--r-- 1 g300128 ch0636 435964 Jul 16 17:19 regional_calib.ipynb
+-rw-r--r-- 1 g300128 ch0636 873238 Jul 16 12:55 regression.ipynb
+-rw-r--r-- 1 g300128 ch0636  31267 Jul 12 12:29 result-11085609.txt
+-rw-r--r-- 1 g300128 ch0636  31430 Jul 13 17:48 result-11085610.txt
+-rw-r--r-- 1 g300128 ch0636  31673 Jul 13 12:06 result-11085611.txt
+-rw-r--r-- 1 g300128 ch0636   4936 Jul 12 12:30 result-11085612.txt
+-rw-r--r-- 1 g300128 ch0636   6004 Jul 16 02:10 result-11085613.txt
+-rw-r--r-- 1 g300128 ch0636   7159 Jul 16 05:32 result-11085614.txt
+-rw-r--r-- 1 g300128 ch0636  32076 Jul 17 09:35 result-11085615.txt
+-rw-r--r-- 1 g300128 ch0636   2983 Jul 16 05:34 result-11085616.txt
+-rw-r--r-- 1 g300128 ch0636      0 Jul 17 09:36 result-11085618.txt
+drwxr-sr-x 2 g300128 ch0636   4096 Jul 10 16:44 Slurm_error_result_file
+---------------------------
+Running preprocess-regional
+---------------------------
+----------------Bonjour Augustin ----------------- 
+ 
+-----------Tu serais pas beau gosse aujourd'hui ? ;) ------------------------ 
+ 
+
+Mise en place des caracteristiques de profil. 
+ Poour activer l environnement et les raccourcis, utiliser : source go_work.sh  
+ 
+------------------------------------------------------------------------------------------
+Les raccourcis sont les suivant : 
+ cdg : aller dans mon dossier de work 
+cdproj : rejoindre le dossier UWARES
+------------------------------------------------------------------------------------------
+Amuses toi bien ;)
+La valeur de l'entrée est : /work/ch0636/g300128/Hydrologie_Calibration/Calibration/regional_settings/setting_calibration463.txt
+Calibrating process using netcdf file as an enter, please make sure your enter data has the structure of a grdc dataset with in additional the gauges locations and the boolean calibrated in order to select the calibration and the validation station
+-------------------------------------------------------------------- [nan, nan, nan, nan, nan, nan, nan, nan, nan, nan, nan, nan, 6243050.0, nan, nan, nan, nan, nan, nan, nan, nan, nan, nan, nan, nan, nan, nan, nan, nan, nan, nan, nan] 463
+256 48

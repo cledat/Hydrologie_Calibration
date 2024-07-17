@@ -1,0 +1,116 @@
+total 1760
+-rw-r--r-- 1 g300128 ch0636    944 Jul 12 12:29 error-11085609.txt
+-rw-r--r-- 1 g300128 ch0636    944 Jul 13 17:48 error-11085610.txt
+-rw-r--r-- 1 g300128 ch0636    944 Jul 13 12:06 error-11085611.txt
+-rw-r--r-- 1 g300128 ch0636    951 Jul 12 12:29 error-11085612.txt
+-rw-r--r-- 1 g300128 ch0636      0 Jul 15 18:03 error-11085613.txt
+-rw-r--r-- 1 g300128 ch0636      0 Jul 15 18:03 error-11085614.txt
+-rw-r--r-- 1 g300128 ch0636   9940 Jul 10 16:23 GRDC_gauged_stations.xlsx
+-rw-r--r-- 1 g300128 ch0636  10905 Jul 10 09:41 hydroStats.py
+-rw-r--r-- 1 g300128 ch0636   6183 Jul 10 09:55 maria_ccwatM.xlsx
+-rw-r--r-- 1 g300128 ch0636   6187 Jul 10 10:10 maria_cwatM.xlsx
+-rw-r--r-- 1 g300128 ch0636 718919 Jul 12 10:52 netcdf_analysing.ipynb
+drwxr-sr-x 2 g300128 ch0636   4096 Jul 10 09:41 __pycache__
+-rw-r--r-- 1 g300128 ch0636  33124 Jul  9 16:44 regional_calib.ipynb
+-rw-r--r-- 1 g300128 ch0636 871994 Jul  9 16:44 regression.ipynb
+-rw-r--r-- 1 g300128 ch0636  31267 Jul 12 12:29 result-11085609.txt
+-rw-r--r-- 1 g300128 ch0636  31430 Jul 13 17:48 result-11085610.txt
+-rw-r--r-- 1 g300128 ch0636  31673 Jul 13 12:06 result-11085611.txt
+-rw-r--r-- 1 g300128 ch0636   4936 Jul 12 12:30 result-11085612.txt
+-rw-r--r-- 1 g300128 ch0636      0 Jul 15 18:03 result-11085613.txt
+-rw-r--r-- 1 g300128 ch0636      0 Jul 15 18:03 result-11085614.txt
+drwxr-sr-x 2 g300128 ch0636   4096 Jul 10 16:44 Slurm_error_result_file
+---------------------------
+Running preprocess-regional
+---------------------------
+----------------Bonjour Augustin ----------------- 
+ 
+-----------Tu serais pas beau gosse aujourd'hui ? ;) ------------------------ 
+ 
+
+Mise en place des caracteristiques de profil. 
+ Poour activer l environnement et les raccourcis, utiliser : source go_work.sh  
+ 
+------------------------------------------------------------------------------------------
+Les raccourcis sont les suivant : 
+ cdg : aller dans mon dossier de work 
+cdproj : rejoindre le dossier UWARES
+------------------------------------------------------------------------------------------
+Amuses toi bien ;)
+La valeur de l'entrée est : /work/ch0636/g300128/Hydrologie_Calibration/Calibration/regional_settings/setting_calibration437.txt
+Calibrating process using netcdf file as an enter, please make sure your enter data has the structure of a grdc dataset with in additional the gauges locations and the boolean calibrated in order to select the calibration and the validation station
+-------------------------------------------------------------------- [nan, nan, nan, nan, nan, nan, nan, 6217140.0, 6217300.0, nan, nan, nan, nan, nan, nan, nan, nan, nan, nan, nan, nan, nan, nan, nan, nan, nan, nan, nan, nan, nan, nan, nan] 437
+256 48
+48
+   run_rand_id: 00_034, KGE: 1.139
+   run_rand_id: 00_083, KGE: 0.984
+   run_rand_id: 00_048, KGE: 0.395
+   run_rand_id: 00_081, KGE: 0.844
+   run_rand_id: 00_049, KGE: 1.030
+   run_rand_id: 00_018, KGE: 0.581
+   run_rand_id: 00_080, KGE: 0.587
+   run_rand_id: 00_063, KGE: 1.016
+   run_rand_id: 00_062, KGE: 0.638
+   run_rand_id: 00_061, KGE: 1.020
+   run_rand_id: 00_009, KGE: 1.079
+   run_rand_id: 00_053, KGE: -0.230
+   run_rand_id: 00_071, KGE: 0.896
+   run_rand_id: 00_020, KGE: 0.885
+   run_rand_id: 00_057, KGE: 0.911
+   run_rand_id: 00_054, KGE: 0.966
+   run_rand_id: 00_055, KGE: 0.913
+   run_rand_id: 00_058, KGE: 1.107
+   run_rand_id: 00_065, KGE: 0.306
+   run_rand_id: 00_001, KGE: 0.928
+   run_rand_id: 00_045, KGE: 0.785
+   run_rand_id: 00_022, KGE: 1.118
+   run_rand_id: 00_012, KGE: 1.074
+   run_rand_id: 00_052, KGE: 1.100
+   run_rand_id: 00_064, KGE: 0.871
+   run_rand_id: 00_024, KGE: 1.023
+   run_rand_id: 00_056, KGE: 0.437
+   run_rand_id: 00_050, KGE: 1.205
+   run_rand_id: 00_078, KGE: 0.755
+   run_rand_id: 00_023, KGE: 1.219
+   run_rand_id: 00_075, KGE: 0.524
+   run_rand_id: 00_051, KGE: 0.563
+run_rand_id: 00_059 File: /work/ch0636/g300128/Hydrologie_Calibration/Calibration/runs_calibration_12_params/437/00_059/discharge_daily.tss
+   run_rand_id: 00_090, KGE: 0.967
+   run_rand_id: 00_068, KGE: 0.985
+   run_rand_id: 00_008, KGE: 0.169
+   run_rand_id: 00_025, KGE: 1.067
+   run_rand_id: 00_002, KGE: 0.626
+   run_rand_id: 00_086, KGE: 0.895
+
+********************************************************************************
+*                                                                              *
+*  This is the automated job summary provided by DKRZ.                         *
+*  If you encounter problems, need assistance or have any suggestion, please   *
+*  write an email to                                                           *
+*                                                                              *
+*  --  support@dkrz.de --                                                      *
+*                                                                              *
+*                       We hope you enjoyed the DKRZ supercomputer LEVANTE ... *
+*
+* JobID            : 11085613
+* JobName          : runing_prep                                       
+* Account          : ch0636
+* User             : g300128 (201946), ch0636 (1303)                   
+* Partition        : shared
+* QOS              : normal
+* Nodelist         : l40005 (1)                                                
+* Submit date      : 2024-07-10T15:43:30
+* Start time       : 2024-07-15T18:03:29
+* End time         : 2024-07-16T02:10:42
+* Elapsed time     : 08:07:13 (Timelimit=2-00:00:00)                   
+* Command          : /work/ch0636/g300128/Hydrologie_Calibration/Calibration/
+*                    run_calibration_slurm.sh
+* WorkDir          : /work/ch0636/g300128/Hydrologie_Calibration/Scripts/
+*                    Notebooks
+*
+* StepID | JobName      NodeHours    MaxRSS [Byte] (@task)
+* ------------------------------------------------------------------------------
+* batch  | batch              8.1
+* extern | extern             8.1                2200K (0)
+* ------------------------------------------------------------------------------
+

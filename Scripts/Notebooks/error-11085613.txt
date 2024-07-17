@@ -1,0 +1,28 @@
+multiprocessing.pool.RemoteTraceback: 
+"""
+Traceback (most recent call last):
+  File "/home/g/g300128/.conda/envs/augustin/lib/python3.9/multiprocessing/pool.py", line 125, in worker
+    result = (True, func(*args, **kwds))
+  File "/home/g/g300128/.conda/envs/augustin/lib/python3.9/multiprocessing/pool.py", line 48, in mapstar
+    return list(map(*args))
+  File "/work/ch0636/g300128/Hydrologie_Calibration/Calibration/scripts/calibration_single_test_netcdf.py", line 225, in RunModel
+    os.mkdir(directory_run)
+FileExistsError: [Errno 17] File exists: '/work/ch0636/g300128/Hydrologie_Calibration/Calibration/runs_calibration_12_params/437/00_006'
+"""
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/work/ch0636/g300128/Hydrologie_Calibration/Calibration/scripts/calibration_single_test_netcdf.py", line 422, in <module>
+    fitnesses = toolbox.map(toolbox.evaluate, invalid_ind) # s assure que tout rrun comme il faut 
+  File "/home/g/g300128/.conda/envs/augustin/lib/python3.9/multiprocessing/pool.py", line 364, in map
+    return self._map_async(func, iterable, mapstar, chunksize).get()
+  File "/home/g/g300128/.conda/envs/augustin/lib/python3.9/multiprocessing/pool.py", line 771, in get
+    raise self._value
+  File "/home/g/g300128/.conda/envs/augustin/lib/python3.9/multiprocessing/pool.py", line 125, in worker
+    result = (True, func(*args, **kwds))
+  File "/home/g/g300128/.conda/envs/augustin/lib/python3.9/multiprocessing/pool.py", line 48, in mapstar
+    return list(map(*args))
+  File "/work/ch0636/g300128/Hydrologie_Calibration/Calibration/scripts/calibration_single_test_netcdf.py", line 225, in RunModel
+    os.mkdir(directory_run)
+FileExistsError: [Errno 17] File exists: '/work/ch0636/g300128/Hydrologie_Calibration/Calibration/runs_calibration_12_params/437/00_006'

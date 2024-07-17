@@ -1,0 +1,90 @@
+total 54900
+-rw-r--r-- 1 g300128 ch0636   270532 Jun 20 15:59 Analyse_Calibration.ipynb
+-rw-r--r-- 1 g300128 ch0636   198571 May 23 14:04 computeKGE.ipynb
+-rw-r--r-- 1 g300128 ch0636      254 Jul  5 16:16 error-11004537.txt
+-rw-r--r-- 1 g300128 ch0636      254 Jul  5 16:17 error-11004538.txt
+-rw-r--r-- 1 g300128 ch0636        0 Jul  5 16:18 error-11004539.txt
+-rw-r--r-- 1 g300128 ch0636    10905 May 15 10:59 hydroStats.py
+-rw-r--r-- 1 g300128 ch0636   895831 Jun 26 16:16 map.ipynb
+-rw-r--r-- 1 g300128 ch0636   666377 Jul  5 14:06 netcdf_analysing.ipynb
+drwxr-sr-x 2 g300128 ch0636     4096 May 29 17:10 __pycache__
+-rw-r--r-- 1 g300128 ch0636    19084 Jul  5 16:16 regional_calib.ipynb
+-rw-r--r-- 1 g300128 ch0636   871994 Jul  3 12:07 regression.ipynb
+-rw-r--r-- 1 g300128 ch0636     4024 Jul  5 16:17 result-11004537.txt
+-rw-r--r-- 1 g300128 ch0636     4163 Jul  5 16:17 result-11004538.txt
+-rw-r--r-- 1 g300128 ch0636        0 Jul  5 16:18 result-11004539.txt
+drwxr-sr-x 2 g300128 ch0636     4096 Jul  1 10:27 Slurm_error_result_file
+-rw-r--r-- 1 g300128 ch0636   722076 Jun 14 17:51 station_catalogue.ipynb
+-rw-r--r-- 1 g300128 ch0636   249535 May 29 09:29 test_outputs.ipynb
+-rw-r--r-- 1 g300128 ch0636    65997 May  8 10:08 tuto.ipynb
+-rw-r--r-- 1 g300128 ch0636 52196308 May 14 16:19 ⚪ Watercycles.ipynb
+---------------------------
+Running preprocess-regional
+---------------------------
+----------------Bonjour Augustin ----------------- 
+ 
+-----------Tu serais pas beau gosse aujourd'hui ? ;) ------------------------ 
+ 
+
+Mise en place des caracteristiques de profil. 
+ Poour activer l environnement et les raccourcis, utiliser : source go_work.sh  
+ 
+------------------------------------------------------------------------------------------
+Les raccourcis sont les suivant : 
+ cdg : aller dans mon dossier de work 
+cdproj : rejoindre le dossier UWARES
+------------------------------------------------------------------------------------------
+Amuses toi bien ;)
+------------------------
+Running CWATM and CCWATM
+------------------------
+Running CWATM
+Running under platform:  Linux
+Linux
+
+CWATM - Community Water Model  1.5  Date:  2024/03/11 16:12  
+International Institute of Applied Systems Analysis (IIASA)
+Running under platform:  Linux
+-----------------------------------------------------------
+
+
+ ======================== CWATM FILE ERROR ===========================
+Error 220: Checking output file path 
+ In  ""
+searching: "%run_rand_id"
+path:  does not exists
+
+
+
+********************************************************************************
+*                                                                              *
+*  This is the automated job summary provided by DKRZ.                         *
+*  If you encounter problems, need assistance or have any suggestion, please   *
+*  write an email to                                                           *
+*                                                                              *
+*  --  support@dkrz.de --                                                      *
+*                                                                              *
+*                       We hope you enjoyed the DKRZ supercomputer LEVANTE ... *
+*
+* JobID            : 11004539
+* JobName          : runing_prep                                       
+* Account          : ch0636
+* User             : g300128 (201946), ch0636 (1303)                   
+* Partition        : shared
+* QOS              : normal
+* Nodelist         : l40017 (1)                                                
+* Submit date      : 2024-07-05T16:16:45
+* Start time       : 2024-07-05T16:18:35
+* End time         : 2024-07-05T16:18:48
+* Elapsed time     : 00:00:13 (Timelimit=7-00:00:00)                   
+* Command          : /work/ch0636/g300128/Hydrologie_Calibration/settings_files/
+*                    ../run_cwatm_slurm.sh
+* WorkDir          : /work/ch0636/g300128/Hydrologie_Calibration/Scripts/
+*                    Notebooks
+*
+* StepID | JobName      NodeHours    MaxRSS [Byte] (@task)
+* ------------------------------------------------------------------------------
+* batch  | batch           0.0036
+* extern | extern          0.0036                2204K (0)
+* ------------------------------------------------------------------------------
+
